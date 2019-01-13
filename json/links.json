@@ -1,0 +1,21 @@
+[
+
+    {
+        "name": "Github",
+        "color": "red",
+        "icon": "images/icons/Github_Icon.jpg",
+        "url": "https://github.com/Griffith-Stites"
+	},    
+    {
+        "name": "LinkedIn",
+        "color": "red",
+        "icon": "images/icons/LinkedIn_Icon.jpg",
+        "url": "https://www.linkedin.com/in/griffithstites/"
+    },
+    {
+        "name": "Resume",
+        "color": "red",
+        "icon": "images/icons/Resume_Icon.jpg",
+        "url": "https://docs.google.com/document/d/1hKgqLe3HSenLBzu4qK6RfZuCvi9D1zhdtDOrHeaBytQ/edit?usp=sharing"
+	}
+]
