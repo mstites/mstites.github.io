@@ -10,14 +10,14 @@
         "image": "images/portfolio/patchpanelproject.jpg"
     },
     {
-        "name": "Big Jake",
-        "description": "I led a team of 55 students to create a competition ready robot in a six week build season. Throughout the season, I lead the team through building three different robots. The pictured robot was the final design and competed in the 2018 FRC competition: Power Up. The robot was undefeated in qualifications and ranked number one at the Iowa regional.",
-        "image": "images/portfolio/bigjake.jpg"
-	},
-    {
         "name": "Diversity Education",
         "description": "I educated over 200 high school students about the importance of accepting and recognizing diversity, specifically in reference to LGBTQ and gender diversity. My presentation focused on my journey discovering my sexuality and gender expression. I used story telling strategies, humor, and activities to engage students. I received great feedback from the presentation, including a number of LGBTQ students who found the presentation inspiring and helpful.",
         "image": "images/portfolio/diversityStory.jpg"
+    },
+    {
+        "name": "Big Jake",
+        "description": "I led a team of 55 students to create a competition ready robot in a six week build season. Throughout the season, I lead the team through building three different robots. The pictured robot was the final design and competed in the 2018 FRC competition: Power Up. The robot was undefeated in qualifications and ranked number one at the Iowa regional.",
+        "image": "images/portfolio/bigjake.jpg"
     },
     {
         "name": "Silver",
