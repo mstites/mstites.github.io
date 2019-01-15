@@ -2,22 +2,14 @@
     {
         "name": "Patch Network",
         "description": "I designed and installed a patch network for use in the Networking, Integration, and Automation (NIA) lab. This included project planning, running team meetings, scheduling, managing material lists, and budgeting. The project came in on time and under budget. In total, the project involved 21 seperate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections. The project will save hundreds of engineering hours in the future as it makes connecting different devices across the lab much easier.",
-        "image": "images/portfolio/patchpanelproject.jpg"
+        "image": "images/portfolio/patchpanelproject.jpg",
+        "link": "/moreinfo/bigjake.html",
+        "linkname":"more info"
     },
     {
         "name": "Big Jake",
         "description": "I lead a team of 55 students to create a competition ready robot in a six week build season. Throughout the season, I lead the team through building three different robots. The pictured robot was the final design and competed in the 2018 FRC competition: Power Up. The robot was undefeated in qualifications and ranked number one at the Iowa regional.",
         "image": "images/portfolio/bigjake.jpg"
-	},
-    {
-        "name": "LGBTQ and Diversity",
-        "description": "I talked to over 250 high school students about my journey discovering my sexuality and gender expression. I explained the importance of diversity and self expression, especially in relation to college and their future. I used story telling strategies, humor, and activities to engage students.",
-        "image": "images/image1.jpg"
-	},
-    {
-        "name": "Girl's Engineering Camp",
-        "description": "This photo is representative of the work I did with girl scouts and the Girls Going Places Engineering Camp. With both groups, I discussed engineering, the design process, and robotics. The goal of these events was to give young girls a safe environment to explore their interest in STEM. These events are just part of my efforts to help solve the gender diversity problem in STEM fields.",
-        "image": "images/image1.jpg"
 	},
     {
         "name": "Silver",
