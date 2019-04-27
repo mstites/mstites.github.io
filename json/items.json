@@ -16,17 +16,23 @@
     {
         "name": "Diversity Education",
         "description": "I educated over 200 high school students about the importance of accepting and recognizing diversity, specifically in reference to LGBTQ and gender diversity. My presentation focused on my journey discovering my sexuality and gender expression. I used story telling strategies, humor, and activities to engage students. I received great feedback from the presentation, including a number of LGBTQ students who found the presentation inspiring and helpful.",
-        "image": "images/portfolio/diversityStory.jpg"
+        "image": "images/portfolio/diversityStory.jpg",
+        "link": "https://www.griffithstites.com/",
+        "link_name": "Coming Soon"
     },
     {
         "name": "Big Jake",
         "description": "I led a team of 55 students to create a competition ready robot in a six week build season. Throughout the season, I lead the team through building three different robots. The pictured robot was the final design and competed in the 2018 FRC competition: Power Up. The robot was undefeated in qualifications and ranked number one at the Iowa regional.",
-        "image": "images/portfolio/bigjake.jpg"
+        "image": "images/portfolio/bigjake.jpg",
+        "link": "https://www.griffithstites.com/",
+        "link_name": "Coming Soon"
     },
     {
         "name": "Silver",
         "description": "I worked as the Electrical Lead for the design of Silver, as well as serving as the Drive Coach at competitions. Silver used a drive train new to our team: Swerve. Swerve utilizes four wheels which are able to be independently turned 360 degrees. I worked to solve the new and challenging electrical and programming challenges which came with this new drive train. Examples of these challenges included accurately measuring wheel position and maintaining robot orientation. Silver won the Iowa regional and made it to the world competition.",
-        "image": "images/portfolio/silver.jpg"
+        "image": "images/portfolio/silver.jpg",
+        "link": "https://www.griffithstites.com/",
+        "link_name": "Coming Soon"
     },
     {
         "name": "Macropad",
