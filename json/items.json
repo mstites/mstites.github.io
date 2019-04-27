@@ -3,7 +3,7 @@
         "name": "SIR Model",
         "description": "I worked with a partner to study the correlation between sleep and the spread of disease. We created a SIR (Susceptible, Infected, and Recovered) model to simulate the spread of disease through a population sample. We used python to build this model. Pictured is a prediction of an outbreak on Olin's campus (left). The result was generated from our model using sleep data from an Olin student survey. On the right is a simulated disease with all students getting an extra hour of sleep. The green line represents the recovered population, the orange line represents the susceptible population, and the blue line represents the infected population.",
         "image": "images/portfolio/modsim.jpg",
-        "link": "https://github.com/Griffith-Stites/ModSimPy/blob/master/SIR%20Model/Project_2.md",
+        "link": "https://www.griffithstites.com/SIR-Model/",
         "link_name": "Computational Essay"
     },
     {
@@ -32,7 +32,7 @@
         "name": "Macropad",
         "description": "I designed, machined, assembled, and programmed this Macropad. It is a completely custom design which is optimized to my own work flow. This photo is also representative of my greater obsession with work flow. I build my own custom keyboards, create custom keyboard layouts, type in Dvorak (A more efficient keyboard layout), and use a variety of different programs and desktop environments (Where appropriate) to optimize my work on computers.",
         "image": "images/portfolio/macropad.jpg",
-        "link": "https://github.com/Griffith-Stites/ModSimPy/blob/master/SIR%20Model/Project_2.md",
+        "link": "https://geekhack.org/index.php?topic=90179.msg2461911#msg2461911",
         "link_name": "Build Guide"
     }
 ]
