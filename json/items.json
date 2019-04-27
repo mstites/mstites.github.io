@@ -29,6 +29,8 @@
     {
         "name": "Macropad",
         "description": "I designed, machined, assembled, and programmed this Macropad. It is a completely custom design which is optimized to my own work flow. This photo is also representative of my greater obsession with work flow. I build my own custom keyboards, create custom keyboard layouts, type in Dvorak (A more efficient keyboard layout), and use a variety of different programs and desktop environments (Where appropriate) to optimize my work on computers.",
-        "image": "images/portfolio/macropad.jpg"
+        "image": "images/portfolio/macropad.jpg",
+        "link": "https://github.com/Griffith-Stites/ModSimPy/blob/master/SIR%20Model/Project_2.md",
+        "link_name": "Build Guide"
     }
 ]
