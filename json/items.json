@@ -1,5 +1,12 @@
 [
     {
+        "name": "Flag Quest",
+        "description": "I worked with a team to develop Flag Quest. Flag Quest is a rogue like game created to spread awareness of LGBTQ+ identities by integrating the elements of LGBTQ+ flags into fun puzzles. The player navigates obstacles to collect colors of a certain LGBTQ+ Flag. When the flag is complete, an educational book is displayed. I worked on a variety of tasks including: the educational end screen books, the flashlight module, controller module, code organization, and the project website.",
+        "image": "images/portfolio/flagquest.jpg",
+        "link": "https://sd19spring.github.io/FlagQuest/",
+        "link_name": "More Info"
+    },
+    {
         "name": "SIR Sleep Model",
         "description": "Pictured is a prediction of an outbreak on Olin's campus (left). The green line represents the recovered population, the orange line represents the susceptible population, and the blue line represents the infected population. The result was generated from our model using sleep data from an Olin student survey. On the right is a simulated disease with all students getting an extra hour of sleep. I worked with a partner to study the correlation between sleep and the spread of disease. We created a SIR (Susceptible, Infected, and Recovered) model to simulate the spread of disease through a population sample. We used Python to build this model.",
         "image": "images/portfolio/modsim.jpg",
