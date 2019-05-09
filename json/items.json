@@ -7,9 +7,9 @@
         "link_name": "More Info"
     },
     {
-        "name": "Singular Value Decomposition Zines",
+        "name": "SVD Zines",
         "description": "I worked with a partner to develop a pair of educational zines explaining basic linearity concepts and the Singular Value Decomposition. These zines are aimed at high school students with an algebra understanding. They are meant to get stduents excited about math by giving purpose to the things they are learning. I created the zine format, wrote about the basics of Linear Algebra (Matricies, Vectors, Eigenvalues, Eigenvectors), explained how SVD works on an image, and developed the code examples (MATLAB, Python, and WolframAlpha).",
-        "image": "images/portfolio/SVD_size.jpg",
+        "image": "images/portfolio/svd_zine.jpg",
         "link": "https://www.griffithstites.com/Linearity-Zine/",
         "link_name": "More Info"
     },
