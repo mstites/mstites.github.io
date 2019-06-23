@@ -3417,7 +3417,8 @@ nav .input-field label.active i{
     font-weight:700
 }
 a{
-    text-decoration:none
+    /* link text decoration */
+    text-decoration:underline;
 }
 html{
     line-height:1.5;
@@ -7106,4 +7107,3 @@ button.picker__today:focus,button.picker__clear:focus,button.picker__close:focus
     stroke-width:4;
     stroke-linecap:round
 }
- 
