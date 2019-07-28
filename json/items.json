@@ -45,8 +45,8 @@
         "name": "Big Jake",
         "description": "I led a team of 55 students to create a competition ready robot in a six week build season. Throughout the season, I led the team through building three different robots. The pictured robot was the final design and competed in the 2018 FRC competition: Power Up. The robot was undefeated in qualifications and ranked number one at the Iowa regional.",
         "image": "images/portfolio/bigjake.jpg",
-        "link": "https://www.griffithstites.com/Big-Jake/",
-        "link_name": "/items/big_jake.html"
+        "link": "/items/big_jake.html",
+        "link_name": "More Info"
     },
     {
         "name": "Silver",
