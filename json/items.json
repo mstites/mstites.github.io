@@ -1,42 +1,49 @@
 [
     {
+        "name": "Vision Stand Calibration",
+        "description": "During my internship with John Deere, I developed software to calibrate Vision Testers. The Vision Testers are used to test displays, using a camera to view the display and a pneumatic finger to interact with the display.<br> <br>My software created calibration files for calibrating the camera and the finger for each Vision Tester. This made all Vision Testers equivelant, reducing the number of false failures during manufacturing and make engineering tests on the Vision Testers easier.",
+        "image": "images/portfolio/vision_stand.jpg",
+        "link": "https://www.griffithstites.com/",
+        "link_name": "Coming Soon"
+    },
+    {
         "name": "project they",
-        "description": "A website I built to support gender non-conforming and transgender people everywhere. The site seeks to break down gender norms and normalize gender non-conformity and people who live outside the binary. <p>  </p> The site consists of three main sections: a lookbook, poetry, and resources. The lookbook and poetry are sections where I use creativity and emotional vulnerability in the hopes that others who are struggling with similar issues can relate to me. The resources section has links to everything from basic terminology to extensive guides and support, some of the resources I created.<p>  </p> Creating this site helped me to learn a ton about HTML and CSS. It also helped me to grow as a creator and artist. Working on it also helped me to realize how far I have developed in my identity. It was tremendous to know that I was able to give back and help others who are struggling with the same things I did.",
+        "description": "A website I built to support gender non-conforming and transgender people everywhere. The site seeks to break down gender norms and normalize gender non-conformity and people who live outside the binary. <br><br> The site consists of three main sections: a lookbook, poetry, and resources. The lookbook and poetry are sections where I use creativity and emotional vulnerability in the hopes that others who are struggling with similar issues can relate to me. The resources section has links to everything from basic terminology to extensive guides and support, some of the resources I created.<br><br> Creating this site helped me to learn a ton about HTML and CSS. It also helped me to grow as a creator and artist. Working on it also helped me to realize how far I have developed in my identity. It was tremendous to know that I was able to give back and help others who are struggling with the same things I did.",
         "image": "images/portfolio/projectthey.jpg",
         "link": "https://they.griffithstites.com/",
         "link_name": "project they Website"
     },
     {
         "name": "Flag Quest",
-        "description": "I worked with a team to develop Flag Quest. Flag Quest is a rogue like game created to spread awareness of LGBTQ+ identities by integrating the elements of LGBTQ+ flags into fun puzzles. <p>  </p> The player navigates obstacles to collect colors of a certain LGBTQ+ Flag. When the flag is complete, an educational book is displayed. I worked on a variety of tasks including: the educational end screen books, the flashlight module, controller module, code organization, and the project website.",
+        "description": "I worked with a team to develop Flag Quest. Flag Quest is a rogue like game created to spread awareness of LGBTQ+ identities by integrating the elements of LGBTQ+ flags into fun puzzles. <br><br> The player navigates obstacles to collect colors of a certain LGBTQ+ Flag. When the flag is complete, an educational book is displayed. I worked on a variety of tasks including: the educational end screen books, the flashlight module, controller module, code organization, and the project website.",
         "image": "images/portfolio/flagquest.jpg",
         "link": "https://sd19spring.github.io/FlagQuest/",
         "link_name": "Project Website"
     },
     {
         "name": "SVD Zines",
-        "description": "I worked with a partner to develop a pair of educational zines explaining basic linearity concepts and the Singular Value Decomposition. These zines are aimed at high school students with an algebra understanding. They are meant to get students excited about math by giving purpose to the things they are learning.  <p>  </p>I created the zine format, wrote about the basics of Linear Algebra (Matrices, Vectors, Eigenvalues, Eigenvectors), explained how SVD works on an image, and developed the code examples (MATLAB, Python, and WolframAlpha).",
+        "description": "I worked with a partner to develop a pair of educational zines explaining basic linearity concepts and the Singular Value Decomposition. These zines are aimed at high school students with an algebra understanding. They are meant to get students excited about math by giving purpose to the things they are learning.  <br><br>I created the zine format, wrote about the basics of Linear Algebra (Matrices, Vectors, Eigenvalues, Eigenvectors), explained how SVD works on an image, and developed the code examples (MATLAB, Python, and WolframAlpha).",
         "image": "images/portfolio/svd_zine.jpg",
         "link": "https://www.griffithstites.com/Linearity-Zine/",
         "link_name": "Project Website"
     },
     {
         "name": "SIR Sleep Model",
-        "description": "Pictured is a prediction of an outbreak on Olin's campus (left). The green line represents the recovered population, the orange line represents the susceptible population, and the blue line represents the infected population. The result was generated from our model using sleep data from an Olin student survey.  <p>  </p>On the right is a simulated disease with all students getting an extra hour of sleep. I worked with a partner to study the correlation between sleep and the spread of disease. We created a SIR (Susceptible, Infected, and Recovered) model to simulate the spread of disease through a population sample. We used Python to build this model.",
+        "description": "Pictured is a prediction of an outbreak on Olin's campus (left). The green line represents the recovered population, the orange line represents the susceptible population, and the blue line represents the infected population. The result was generated from our model using sleep data from an Olin student survey.  <br><br>On the right is a simulated disease with all students getting an extra hour of sleep. I worked with a partner to study the correlation between sleep and the spread of disease. We created a SIR (Susceptible, Infected, and Recovered) model to simulate the spread of disease through a population sample. We used Python to build this model.",
         "image": "images/portfolio/modsim.jpg",
         "link": "https://www.griffithstites.com/SIR-Model/",
         "link_name": "Computational Essay"
     },
     {
         "name": "Patch Network",
-        "description": "I designed and installed a patch network for use in the Networking, Integration, and Automation (NIA) lab. This included project planning, running team meetings, scheduling, managing material lists, and managing a budget.  <p>  </p>The project came in on time and under budget. In total, the project involved 21 separate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections. The project will save hundreds of engineering hours in the future as it makes connecting different devices across the lab fast, neat, and easy.",
+        "description": "I designed and installed a patch network for use in the Networking, Integration, and Automation (NIA) lab. This included project planning, running team meetings, scheduling, managing material lists, and managing a budget.  <br><br>The project came in on time and under budget. In total, the project involved 21 separate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections. The project will save hundreds of engineering hours in the future as it makes connecting different devices across the lab fast, neat, and easy.",
         "image": "images/portfolio/patchpanelproject.jpg",
         "link": "/items/patch_network.html",
         "link_name": "More Info"
     },
     {
         "name": "Diversity Education",
-        "description": "I educated over 200 high school students about the importance of accepting and recognizing diversity, specifically in reference to LGBTQ and gender diversity. My presentation focused on my journey discovering my sexuality and gender expression.  <p>  </p>I used story telling strategies, humor, and activities to engage students. I received great feedback from the presentation, including a number of LGBTQ students who found the presentation inspiring and helpful.",
+        "description": "I educated over 200 high school students about the importance of accepting and recognizing diversity, specifically in reference to LGBTQ and gender diversity. My presentation focused on my journey discovering my sexuality and gender expression.  <br><br>I used story telling strategies, humor, and activities to engage students. I received great feedback from the presentation, including a number of LGBTQ students who found the presentation inspiring and helpful.",
         "image": "images/portfolio/diversityStory.jpg",
         "link": "https://www.griffithstites.com/",
         "link_name": "Coming Soon"
@@ -50,14 +57,14 @@
     },
     {
         "name": "Silver",
-        "description": "I worked as the Electrical Lead for the design of Silver, as well as serving as the Drive Coach at competitions. Silver used a drive train new to our team: Swerve. Swerve utilizes four wheels which are able to be independently turned 360 degrees.  <p>  </p>I worked to solve the new and challenging electrical and programming challenges which came with this new drive train. Examples of these challenges included accurately measuring wheel position and maintaining robot orientation. Silver won the Iowa regional and made it to the world competition.",
+        "description": "I worked as the Electrical Lead for the design of Silver, as well as serving as the Drive Coach at competitions. Silver used a drive train new to our team: Swerve. Swerve utilizes four wheels which are able to be independently turned 360 degrees.  <br><br>I worked to solve the new and challenging electrical and programming challenges which came with this new drive train. Examples of these challenges included accurately measuring wheel position and maintaining robot orientation. Silver won the Iowa regional and made it to the world competition.",
         "image": "images/portfolio/silver.jpg",
         "link": "/items/silver.html",
         "link_name": "More Info"
     },
     {
         "name": "Macropad",
-        "description": "I designed, machined, assembled, and programmed this Macropad. It is a completely custom design which is optimized to my own work flow. This photo is also representative of my greater obsession with work flow.  <p>  </p>I build my own custom keyboards, create custom keyboard layouts, type in Dvorak (A more efficient keyboard layout), and use a variety of different programs and desktop environments (Where appropriate) to optimize my work on computers.",
+        "description": "I designed, machined, assembled, and programmed this Macropad. It is a completely custom design which is optimized to my own work flow. This photo is also representative of my greater obsession with work flow.  <br><br>I build my own custom keyboards, create custom keyboard layouts, type in Dvorak (A more efficient keyboard layout), and use a variety of different programs and desktop environments (Where appropriate) to optimize my work on computers.",
         "image": "images/portfolio/macropad.jpg",
         "link": "/items/macropad.html",
         "link_name": "Build Log"
