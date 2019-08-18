@@ -1,6 +1,6 @@
 [
     {
-        "name": "Vision Stand Calibration",
+        "name": "Vision Calibration",
         "description": "During my internship with John Deere, I developed software to calibrate Vision Testers. The Vision Testers are used to test displays, using a camera to view the display and a pneumatic finger to interact with the display.<br> <br>My software created calibration files for calibrating the camera and the finger for each Vision Tester. This made all Vision Testers equivelant, reducing the number of false failures during manufacturing and make engineering tests on the Vision Testers easier.",
         "image": "images/portfolio/vision_stand.jpg",
         "link": "https://www.griffithstites.com/",
