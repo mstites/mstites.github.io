@@ -35,6 +35,20 @@
         "link_name": "Project Website"
     },
     {
+        "name": "Merrilee Walker",
+        "description": "I worked on a team to help design the perfect walker for an older adult.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner, Merrilee. All of this work led us to be able to modify a walker to fit her needs. This was an incredibly rewarding experience to be able to improve the life of someone. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and safe than ever before.",
+        "image": "images/portfolio/walker.jpg",
+        "link": "www.griffithstites.com",
+        "link_name": "Coming Soon"
+    },
+    {
+        "name": "Laser Cut Computer Case",
+        "description": "Description coming soon",
+        "image": "images/portfolio/case.jpg",
+        "link": "www.griffithstites.com",
+        "link_name": "Coming Soon"
+    },
+    {
         "name": "SIR Sleep Model",
         "description": "Pictured is a prediction of an outbreak on Olin's campus (left). The green line represents the recovered population, the orange line represents the susceptible population, and the blue line represents the infected population. The result was generated from our model using sleep data from an Olin student survey.  <br><br>On the right is a simulated disease with all students getting an extra hour of sleep. I worked with a partner to study the correlation between sleep and the spread of disease. We created a SIR (Susceptible, Infected, and Recovered) model to simulate the spread of disease through a population sample. We used Python to build this model.",
         "image": "images/portfolio/modsim.jpg",
