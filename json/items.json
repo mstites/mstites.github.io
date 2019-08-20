@@ -50,10 +50,10 @@
     },
     {
         "name": "Laser Cut Comp. Case",
-        "description": "I experimented with new designs for compact and portable computer cases. This project was spurred out of my frustrations with existing computer cases in that market segment.<br><br>The cases were made by laser cutting plywood. This method was chosen because it is a cheap and fast prototyping method.",
+        "description": "Spurred by frustrations with existing products on the market, I experimented with new designs for compact and portable computer cases. I tested a number of different designs which could in the future be developed into a more refined product.<br><br>The cases were made by laser cutting plywood. This method was chosen because it is a cheap and fast prototyping method.",
         "image": "images/portfolio/case.jpg",
-        "link": "www.griffithstites.com",
-        "link_name": "Coming Soon"
+        "link": "/items/case.html",
+        "link_name": "More Info"
     },
     {
         "name": "SIR Sleep Model",
