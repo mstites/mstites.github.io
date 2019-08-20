@@ -35,11 +35,11 @@
         "link_name": "Project Website"
     },
     {
-        "name": "Merrilee Walker",
-        "description": "I worked on a team to help design the perfect walker for an older adult.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner, Merrilee. All of this work led us to be able to modify a walker to fit her needs. This was an incredibly rewarding experience to be able to improve the life of someone. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and safe than ever before.",
+        "name": "Nancy Walker",
+        "description": "I worked on a team to help design the perfect walker for an older adult.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner. This was an incredibly rewarding experience to be able to improve the life of someone. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and safe than ever before.",
         "image": "images/portfolio/walker.jpg",
-        "link": "www.griffithstites.com",
-        "link_name": "Coming Soon"
+        "link": "/items/walker.html",
+        "link_name": "More Info"
     },
     {
         "name": "Laser Cut Comp. Case",
