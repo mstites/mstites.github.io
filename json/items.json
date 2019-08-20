@@ -35,8 +35,15 @@
         "link_name": "Project Website"
     },
     {
+        "name": "Patch Network",
+        "description": "I designed and installed a patch network for use in the Networking, Integration, and Automation (NIA) lab. This included project planning, running team meetings, scheduling, managing material lists, and managing a budget.  <br><br>The project came in on time and under budget. In total, the project involved 21 separate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections. The project will save hundreds of engineering hours in the future as it makes connecting different devices across the lab fast, neat, and easy.",
+        "image": "images/portfolio/patchpanelproject.jpg",
+        "link": "/items/patch_network.html",
+        "link_name": "More Info"
+    },
+    {
         "name": "Nancy Walker",
-        "description": "I worked on a team to help design the perfect walker for an older adult.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner. This was an incredibly rewarding experience to be able to improve the life of someone. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and safe than ever before.",
+        "description": "I worked on a team to help design the perfect walker for an older adult. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and feel safer than ever before.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner. This was an incredibly rewarding experience to be able to improve the life of someone.",
         "image": "images/portfolio/walker.jpg",
         "link": "/items/walker.html",
         "link_name": "More Info"
@@ -54,13 +61,6 @@
         "image": "images/portfolio/modsim.jpg",
         "link": "https://www.griffithstites.com/SIR-Model/",
         "link_name": "Computational Essay"
-    },
-    {
-        "name": "Patch Network",
-        "description": "I designed and installed a patch network for use in the Networking, Integration, and Automation (NIA) lab. This included project planning, running team meetings, scheduling, managing material lists, and managing a budget.  <br><br>The project came in on time and under budget. In total, the project involved 21 separate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections. The project will save hundreds of engineering hours in the future as it makes connecting different devices across the lab fast, neat, and easy.",
-        "image": "images/portfolio/patchpanelproject.jpg",
-        "link": "/items/patch_network.html",
-        "link_name": "More Info"
     },
     {
         "name": "K-12 Diversity Education",
