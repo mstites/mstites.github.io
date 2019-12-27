@@ -1,93 +1,100 @@
 [
-    {
-        "name": "Vision Stand Cal",
-        "description": "I developed software to calibrate the Vision Test Stands at the JDES (John Deere Electronic Solutions) plant. These testers verify the functionality of displays made for use in John Deere tractors and construction equipement. Each Vision Test Stand uses a camera to view the display and a pneumatic finger to interact with the display.<br> <br> The software I wrote calibrated the Vision Test Stands and made them functionally identical. This reduced the number of false failures during manufacturing. My software also will reduce the number of engineering hours required to create tests on Vision Test Stands. <br><br>I wrote software to generate a local machine offset for the Pneumatic Finger position. I also wrote software to generate a table of exposures and expected color hues for each tester. Finally, I wrote resuable software to allow engineers to easily interact with these calibration files in their own code.",
-        "image": "images/portfolio/vision_stand.jpg",
-        "link": "items/vision_stand.html",
-        "link_name": "More Info"
-    },
-    {
-        "name": "Non-binary Life Stories",
-        "description": "During my internship with John Deere, I took on a number of Diversity & Inclusion Iniatives. The highlight of my summer was giving a presentation with over 200 attendees: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. <br><br>This presentation was centered around my story: my identity, my identity journey, and experience interacting with the world as a non-binary person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.",
-        "image": "images/portfolio/lifestories.jpg",
-        "link": "https://www.linkedin.com/feed/update/urn:li:activity:6567873477775368192/",
-        "link_name": "LinkedIn Post"
-    },
-    {
-        "name": "project they",
-        "description": "A website I built to support gender non-conforming and transgender people everywhere. The site seeks to break down gender norms and normalize gender non-conformity and people who live outside the binary. <br><br> The site consists of three main sections: a lookbook, poetry, and resources. The lookbook and poetry are sections where I use creativity and emotional vulnerability in the hopes that others who are struggling with similar issues can relate to me. The resources section has links to everything from basic terminology to extensive guides and support, some of the resources I created.<br><br> Creating this site helped me to learn a ton about HTML and CSS. It also helped me to grow as a creator and artist. Working on it also helped me to realize how far I have developed in my identity. It was tremendous to know that I was able to give back and help others who are struggling with the same things I did.",
-        "image": "images/portfolio/projectthey.jpg",
-        "link": "https://they.mstites.com/",
-        "link_name": "project they Website"
-    },
-    {
-        "name": "Flag Quest",
-        "description": "I worked with a team to develop Flag Quest. Flag Quest is a rogue like game created to spread awareness of LGBTQ+ identities by integrating the elements of LGBTQ+ flags into fun puzzles. <br><br> The player navigates obstacles to collect colors of a certain LGBTQ+ Flag. When the flag is complete, an educational book is displayed. I worked on a variety of tasks including: the educational end screen books, the flashlight module, controller module, code organization, and the project website.",
-        "image": "images/portfolio/flagquest.jpg",
-        "link": "https://sd19spring.github.io/FlagQuest/",
-        "link_name": "Project Website"
-    },
-    {
-        "name": "SVD Zines",
-        "description": "I worked with a partner to develop a pair of educational zines explaining basic linearity concepts and the Singular Value Decomposition. These zines are aimed at high school students with an algebra understanding. They are meant to get students excited about math by giving purpose to the things they are learning.  <br><br>I created the zine format, wrote about the basics of Linear Algebra (Matrices, Vectors, Eigenvalues, Eigenvectors), explained how SVD works on an image, and developed the code examples (MATLAB, Python, and WolframAlpha).",
-        "image": "images/portfolio/svd_zine.jpg",
-        "link": "https://www.mstites.com/Linearity-Zine/",
-        "link_name": "Project Website"
-    },
-    {
-        "name": "Patch Network",
-        "description": "I designed and installed a patch network for use in the Networking, Integration, and Automation (NIA) lab. This included project planning, running team meetings, scheduling, managing material lists, and managing a budget.  <br><br>The project came in on time and under budget. In total, the project involved 21 separate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections. The project will save hundreds of engineering hours in the future as it makes connecting different devices across the lab fast, neat, and easy.",
-        "image": "images/portfolio/patchpanelproject.jpg",
-        "link": "/items/patch_network.html",
-        "link_name": "More Info"
-    },
-    {
-        "name": "Nancy Walker",
-        "description": "I worked on a team to help design the perfect walker for an older adult. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and feel safer than ever before.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner. This was an incredibly rewarding experience to be able to improve the life of someone.",
-        "image": "images/portfolio/walker.jpg",
-        "link": "/items/walker.html",
-        "link_name": "More Info"
-    },
-    {
-        "name": "Laser Cut Comp. Case",
-        "description": "Spurred by frustrations with existing products on the market, I experimented with new designs for compact and portable computer cases. I tested a number of different designs which could in the future be developed into a more refined product.<br><br>The cases were made by laser cutting plywood. This method was chosen because it is a cheap and fast prototyping method.",
-        "image": "images/portfolio/case.jpg",
-        "link": "/items/case.html",
-        "link_name": "More Info"
-    },
-    {
-        "name": "SIR Sleep Model",
-        "description": "Pictured is a prediction of an outbreak on Olin's campus (left). The green line represents the recovered population, the orange line represents the susceptible population, and the blue line represents the infected population. The result was generated from our model using sleep data from an Olin student survey.  <br><br>On the right is a simulated disease with all students getting an extra hour of sleep. I worked with a partner to study the correlation between sleep and the spread of disease. We created a SIR (Susceptible, Infected, and Recovered) model to simulate the spread of disease through a population sample. We used Python to build this model.",
-        "image": "images/portfolio/modsim.jpg",
-        "link": "https://www.mstites.com/SIR-Model/",
-        "link_name": "Computational Essay"
-    },
-    {
-        "name": "K-12 Diversity Education",
-        "description": "I educated over 200 high school students about the importance of accepting and recognizing diversity, specifically in reference to LGBTQ and gender diversity. My presentation focused on my journey discovering my own identities.  <br><br>I used story telling strategies, humor, and activities to engage students. I received great feedback from the presentation, including a number of LGBTQ students who found the presentation inspiring.",
-        "image": "images/portfolio/diversityStory.jpg",
-        "link": "https://www.mstites.com/",
-        "link_name": "Coming Soon"
-    },
-    {
-        "name": "Big Jake",
-        "description": "I led a team of 55 students to create a competition ready robot in a six week build season. Throughout the season, I led the team through building three different robots. The pictured robot was the final design and competed in the 2018 FRC competition: Power Up. The robot was undefeated in qualifications and ranked number one at the Iowa regional.",
-        "image": "images/portfolio/bigjake.jpg",
-        "link": "/items/big_jake.html",
-        "link_name": "More Info"
-    },
-    {
-        "name": "Silver",
-        "description": "I worked as the Electrical Lead for the design of Silver, as well as serving as the Drive Coach at competitions. Silver used a drive train new to our team: Swerve. Swerve utilizes four wheels which are able to be independently turned 360 degrees.  <br><br>I worked to solve the new and challenging electrical and programming challenges which came with this new drive train. Examples of these challenges included accurately measuring wheel position and maintaining robot orientation. Silver won the Iowa regional and made it to the world competition.",
-        "image": "images/portfolio/silver.jpg",
-        "link": "/items/silver.html",
-        "link_name": "More Info"
-    },
-    {
-        "name": "Macropad",
-        "description": "I designed, machined, assembled, and programmed this Macropad. It is a completely custom design which is optimized to my own work flow. This photo is also representative of my greater obsession with work flow.  <br><br>I build my own custom keyboards, create custom keyboard layouts, type in Dvorak (A more efficient keyboard layout), and use a variety of different programs and desktop environments (Where appropriate) to optimize my work on computers.",
-        "image": "images/portfolio/macropad.jpg",
-        "link": "/items/macropad.html",
-        "link_name": "Build Log"
-    }
+  {
+    "name": "Attractnid",
+    "description": "Attractnid is a four legged robot which can scale metal surfaces. It relies on magnets to attach itself to surfaces. The robot uses feet with permanent magnetics to attach to surfaces. Servos on the top of the feet rotate a permanent magnet to cancel the magnetic fields to detach the leg, allowing another set of servos to rotate the legs. An accelerometer keeps track of the orientation of the robot, allowing the robot to move along any specified angle.<br><br>My key contributions to the team was software development, firmware development, and building the project website.",
+    "image": "images/portfolio/attractnid.jpg",
+    "link": "https://www.mstites.com/attractnid/",
+    "link_name": "Project Website"
+  },
+  {
+    "name": "Vision Stand Cal",
+    "description": "I developed software to calibrate the Vision Test Stands at the JDES (John Deere Electronic Solutions) plant. These testers verify the functionality of displays made for use in John Deere tractors and construction equipement. Each Vision Test Stand uses a camera to view the display and a pneumatic finger to interact with the display.<br> <br> The software I wrote calibrated the Vision Test Stands and made them functionally identical. This reduced the number of false failures during manufacturing. My software also will reduce the number of engineering hours required to create tests on Vision Test Stands. <br><br>I wrote software to generate a local machine offset for the Pneumatic Finger position. I also wrote software to generate a table of exposures and expected color hues for each tester. Finally, I wrote resuable software to allow engineers to easily interact with these calibration files in their own code.",
+    "image": "images/portfolio/vision_stand.jpg",
+    "link": "items/vision_stand.html",
+    "link_name": "More Info"
+  },
+  {
+    "name": "Non-binary Life Stories",
+    "description": "During my internship with John Deere, I took on a number of Diversity & Inclusion Iniatives. The highlight of my summer was giving a presentation with over 200 attendees: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. <br><br>This presentation was centered around my story: my identity, my identity journey, and experience interacting with the world as a non-binary person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.",
+    "image": "images/portfolio/lifestories.jpg",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6567873477775368192/",
+    "link_name": "LinkedIn Post"
+  },
+  {
+    "name": "project they",
+    "description": "A website I built to support gender non-conforming and transgender people everywhere. The site seeks to break down gender norms and normalize gender non-conformity and people who live outside the binary. <br><br> The site consists of three main sections: a lookbook, poetry, and resources. The lookbook and poetry are sections where I use creativity and emotional vulnerability in the hopes that others who are struggling with similar issues can relate to me. The resources section has links to everything from basic terminology to extensive guides and support, some of the resources I created.<br><br> Creating this site helped me to learn a ton about HTML and CSS. It also helped me to grow as a creator and artist. Working on it also helped me to realize how far I have developed in my identity. It was tremendous to know that I was able to give back and help others who are struggling with the same things I did.",
+    "image": "images/portfolio/projectthey.jpg",
+    "link": "https://they.mstites.com/",
+    "link_name": "project they Website"
+  },
+  {
+    "name": "Flag Quest",
+    "description": "I worked with a team to develop Flag Quest. Flag Quest is a rogue like game created to spread awareness of LGBTQ+ identities by integrating the elements of LGBTQ+ flags into fun puzzles. <br><br> The player navigates obstacles to collect colors of a certain LGBTQ+ Flag. When the flag is complete, an educational book is displayed. I worked on a variety of tasks including: the educational end screen books, the flashlight module, controller module, code organization, and the project website.",
+    "image": "images/portfolio/flagquest.jpg",
+    "link": "https://sd19spring.github.io/FlagQuest/",
+    "link_name": "Project Website"
+  },
+  {
+    "name": "SVD Zines",
+    "description": "I worked with a partner to develop a pair of educational zines explaining basic linearity concepts and the Singular Value Decomposition. These zines are aimed at high school students with an algebra understanding. They are meant to get students excited about math by giving purpose to the things they are learning.  <br><br>I created the zine format, wrote about the basics of Linear Algebra (Matrices, Vectors, Eigenvalues, Eigenvectors), explained how SVD works on an image, and developed the code examples (MATLAB, Python, and WolframAlpha).",
+    "image": "images/portfolio/svd_zine.jpg",
+    "link": "https://www.mstites.com/Linearity-Zine/",
+    "link_name": "Project Website"
+  },
+  {
+    "name": "Patch Network",
+    "description": "I designed and installed a patch network for use in the Networking, Integration, and Automation (NIA) lab. This included project planning, running team meetings, scheduling, managing material lists, and managing a budget.  <br><br>The project came in on time and under budget. In total, the project involved 21 separate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections. The project will save hundreds of engineering hours in the future as it makes connecting different devices across the lab fast, neat, and easy.",
+    "image": "images/portfolio/patchpanelproject.jpg",
+    "link": "/items/patch_network.html",
+    "link_name": "More Info"
+  },
+  {
+    "name": "Nancy Walker",
+    "description": "I worked on a team to help design the perfect walker for an older adult. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and feel safer than ever before.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner. This was an incredibly rewarding experience to be able to improve the life of someone.",
+    "image": "images/portfolio/walker.jpg",
+    "link": "/items/walker.html",
+    "link_name": "More Info"
+  },
+  {
+    "name": "Laser Cut Comp. Case",
+    "description": "Spurred by frustrations with existing products on the market, I experimented with new designs for compact and portable computer cases. I tested a number of different designs which could in the future be developed into a more refined product.<br><br>The cases were made by laser cutting plywood. This method was chosen because it is a cheap and fast prototyping method.",
+    "image": "images/portfolio/case.jpg",
+    "link": "/items/case.html",
+    "link_name": "More Info"
+  },
+  {
+    "name": "SIR Sleep Model",
+    "description": "Pictured is a prediction of an outbreak on Olin's campus (left). The green line represents the recovered population, the orange line represents the susceptible population, and the blue line represents the infected population. The result was generated from our model using sleep data from an Olin student survey.  <br><br>On the right is a simulated disease with all students getting an extra hour of sleep. I worked with a partner to study the correlation between sleep and the spread of disease. We created a SIR (Susceptible, Infected, and Recovered) model to simulate the spread of disease through a population sample. We used Python to build this model.",
+    "image": "images/portfolio/modsim.jpg",
+    "link": "https://www.mstites.com/SIR-Model/",
+    "link_name": "Computational Essay"
+  },
+  {
+    "name": "K-12 Diversity Education",
+    "description": "I educated over 200 high school students about the importance of accepting and recognizing diversity, specifically in reference to LGBTQ and gender diversity. My presentation focused on my journey discovering my own identities.  <br><br>I used story telling strategies, humor, and activities to engage students. I received great feedback from the presentation, including a number of LGBTQ students who found the presentation inspiring.",
+    "image": "images/portfolio/diversityStory.jpg",
+    "link": "https://www.mstites.com/",
+    "link_name": "Coming Soon"
+  },
+  {
+    "name": "Big Jake",
+    "description": "I led a team of 55 students to create a competition ready robot in a six week build season. Throughout the season, I led the team through building three different robots. The pictured robot was the final design and competed in the 2018 FRC competition: Power Up. The robot was undefeated in qualifications and ranked number one at the Iowa regional.",
+    "image": "images/portfolio/bigjake.jpg",
+    "link": "/items/big_jake.html",
+    "link_name": "More Info"
+  },
+  {
+    "name": "Silver",
+    "description": "I worked as the Electrical Lead for the design of Silver, as well as serving as the Drive Coach at competitions. Silver used a drive train new to our team: Swerve. Swerve utilizes four wheels which are able to be independently turned 360 degrees.  <br><br>I worked to solve the new and challenging electrical and programming challenges which came with this new drive train. Examples of these challenges included accurately measuring wheel position and maintaining robot orientation. Silver won the Iowa regional and made it to the world competition.",
+    "image": "images/portfolio/silver.jpg",
+    "link": "/items/silver.html",
+    "link_name": "More Info"
+  },
+  {
+    "name": "Macropad",
+    "description": "I designed, machined, assembled, and programmed this Macropad. It is a completely custom design which is optimized to my own work flow. This photo is also representative of my greater obsession with work flow.  <br><br>I build my own custom keyboards, create custom keyboard layouts, type in Dvorak (A more efficient keyboard layout), and use a variety of different programs and desktop environments (Where appropriate) to optimize my work on computers.",
+    "image": "images/portfolio/macropad.jpg",
+    "link": "/items/macropad.html",
+    "link_name": "Build Log"
+  }
 ]
