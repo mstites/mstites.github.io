@@ -1,5 +1,12 @@
 [
   {
+    "name": "Create",
+    "description": "Who said engineers had to be all logic and no liminality?<br><br>I sometimes find it necessary to escape the technical swamp and dart into the artistic caverns of my brain. <i>Create</i> is a porthole into those realms. The site features works which draw heavily on my lived experiences as a lesbian, poly, non-binary, trans woman.<br><br>There’s a zines page which features collections of my poetry, short essays, and journals from different stages of my trans experiences.<br><br>In the future, I hope to share more pieces focused on trans positivity, allyship, and intersectionality. My creations — and by extension, this site — follow my transition. As I find ways to cope with my trauma, I feel that my work will shift accordingly.",
+    "image": "images/portfolio/create.jpg",
+    "link": "https://create.mstites.com/",
+    "link_name": "Create Website"
+  },
+  {
     "name": "Attractnid",
     "description": "Attractnid is a four legged robot which can scale metal surfaces. It relies on magnets to attach itself to surfaces. The robot uses feet with permanent magnetics to attach to surfaces. Servos on the top of the feet rotate a permanent magnet to cancel the magnetic fields to detach the leg, allowing another set of servos to rotate the legs. An accelerometer keeps track of the orientation of the robot, allowing the robot to move along any specified angle.<br><br>My key contributions to the team was software development, firmware development, and building the project website.",
     "image": "images/portfolio/attractnid.jpg",
