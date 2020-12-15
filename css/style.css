@@ -50,6 +50,11 @@ hr {
     background-color: #212121;
 }
 
+code {
+  color: crimson;
+  padding: 2px;
+}
+
 .subpage{
     margin-top: .5rem;
     margin-bottom: 1rem;
