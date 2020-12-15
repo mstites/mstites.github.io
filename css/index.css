@@ -17,7 +17,7 @@ body {
     align-content: center;
 }
 
-.subpage .imageCaptions img{
+.subpage .imageCap img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -26,7 +26,7 @@ body {
     width: auto;
 }
 
-.subpage .imageCaptions p{
+.subpage .imageCap p{
   text-align: center;
 }
 
