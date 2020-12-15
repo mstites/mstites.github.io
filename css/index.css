@@ -2,15 +2,6 @@
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-/* :root {
-  font-size: 62.5%;
-  body {
-    margin: 0;
-    // Body font size 16px
-    font-size: 1.6rem;
-  }
-} */
-
 .portfolio-text{
     margin-top: 3px;
     margin-bottom: 8px;
@@ -18,7 +9,7 @@
     margin-right: auto;
     display: block;
     width: 100%;
-    max-width: 600px;
+    max-width: 50vw;
     align-content: center;
 }
 
@@ -27,15 +18,29 @@
   max-height:400px;
 }
 
+/* Text Sizes */
 h1 {
   font-size: 3rem;
 }
 
-body {
-  font-size: 20 rem;
+h2 {
+  font-size: 2.5rem;
 }
-p {
-  font-size: 20 px;
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.75rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.3rem;
 }
 
 /* Social Links */
@@ -79,7 +84,7 @@ p {
 /* The various Texts */
 
 #heroName {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 #description {
