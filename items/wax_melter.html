@@ -36,34 +36,53 @@
       <hr>
       <img src="../images/portfolio/items/vision_stand/stand_1.jpg" alt="Cover photo">
       <h2>Board Information</h2>
-      <h3>Parts List</h3>
-      with suppliers
-      github repo
-      <h3>Schematic</h3>
-      <h3>PCB Layout Information</h3>
-    </div>
-    <div>
-      <h2>Software</h2>
-      SOURCE CODE LINK GITHUB
-    </div>
-    <div>
-      <h2>Usage</h2>
-      <h3>User Interfaces</h3>
-      <h5>Ideation and Design Process</h5>
-      <h3>Wax Heating and Candle Making Process</h3>
-    </div>
-    <div>
-    </div>
-    <h2>PCB Layout</h2>
-    <h2>
-      <p></p>
+      <h3>Parts List and Parts Decisions</h3>
+      <p>Below is the parts list for making one board. I ordered more of certain parts (regulators, capacitors, resisters, sockets) with the plan to make more than one board. However, I ended up only making one board as my first design came out very well.
+        <ul>
+          <li><a href=https://www.adafruit.com/product/3591>Adafruit HUZZAH32</a> - integrated wifi module and common usage in IoT device spaces.</li>
+          <li><a href=https://www.adafruit.com/product/1778>Thermocouple Amplifier AD8495</a> - this is basically a chip on a board, but having it in module form makes it much easier to implement. If my budget would have allowed it, I would have bought two of these so I could have measured two temperature points (eg the pot and in the wax).</li>
+          <li><a href=https://www.ebay.com/itm/1M-K-Type-Thermocouple-Sensor-Digital-Thermometer-Temperature-Meter-TK80-4JPL8/282896189061?_trkparms=ispr%3D1&hash=item41dded4685:g:auQAAOSwikdau~0I&amdata=enc%3AAQAFAAACYBaobrjLl8XobRIiIML1V4Imu%252Fn%252BzU5L90Z278x5ickk7PdDazAlGltMLJlUhrWsD4ypBzXDBrr3EGbvDCD%252BOTfiTG%252FV6xARDfS6DhxpOawtq0wAUHwzCXVNlrquDkax%252BHLcfCpjODsCClfysZNmLcjKNhUCyZwlivq7Ou%252BSmp%252FNan3zi86bNOppmqGIBMdWiTFE6aq0N55rJ5p610VKqpsEUguP16E0hxd5inmBD20248dYwxENTtrZPJzbteu98xpsFoA6NRRONNO8AFAXX89%252FktMA%252FMYhMde28GDtzsb4Q%252FstK%252BytZGRtmxx2GJeJIjNEnUTIb2ZtmPVtaehLIrKyByYNRhgJ3trD8Uzl1OL1G6Ov1BHTu3ct5z6%252BYjT5Gn1gHn1WTkyAUGmD96HCcMx2kF4PVEo171c0GnQmpCPSK%252Ba1t5ZcDgoZA4wjEhZSgphf9bAZoL%252BTzL9r2Q1FGZkeqwcEwrHTXMSumlt%252FEBQSmBNDBf%252BVZwOZV1DEa5zsk8uRSAahogXBhsBiTncrrOCZMk1M%252Fb6JNapN67fctFa4vXdXtx75DZtH7jcddYi4seuXT9uvLQ%252BGizccfA5TaPQpMoAGivS1TTwWy26Bz2oLF4qjKl8lhn9gjkRAodJqWBnukNI%252BdxfboGJRnL1tupUHN1vHOuuQglrpdetpjcCG2atFgNjEhzRBVdqyXI5UYWCN3p%252FCElSElYjv48XtG05oh%252F%252F0i%252BNC37r2TF%252BFe4q4%252FOPX%252BPEo%252BL9JVKTemFHr%252BIyor4iOTMGOTiiJJ6U9t5zFFEMdbP8pcCW20AqyD6I7%7Ccksum%3A282896189061fe03b50efa204da1abdccf1154f0cbb6%7Campid%3APL_CLK%7Cclp%3A2334524>K Type Thermocouple</a> - a very generic and cheap K type thermocouple. It works fine, but next time I would buy a <a href=https://www.amazon.com/T-PRO-Thermocouple-Temperature-Sensors-Wire%EF%BC%8CStainless/dp/B0748DFJFN/ref=sr_1_1_sspa?crid=3FBR67YVY6O7F&dchild=1&keywords=k+type+thermocouple&qid=1608021933&sprefix=k+type+the%2Caps%2C169&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEySU5GQjJQMU9ZMVE5JmVuY3J5cHRlZElkPUEwMDg1Mjg0U1UwOFRGNkFBNkI1JmVuY3J5cHRlZEFkSWQ9QTA5NDQ1MzExQ1dMSlMwNDdLVDdJJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ%3D%3D>probe</a>.</li>
+          <li><a href=https://www.amazon.com/gp/product/B07MMT2SC5/ref=ask_ql_qh_dp_hza>Hot Plate</a> - The most basic hot plate I could find. When you plug it in, it turns on. When you unplug it, it turns off. Perfect for my board to control.</li>
+          <li><a href=https://www.amazon.com/Iot-Relay-Enclosed-High-Power-Raspberry/dp/B00WV7GMA2/ref=sr_1_2?dchild=1&keywords=outlet+power+relay&qid=1601856536&sr=8-2>Outlet Power Relay</a> - picked this up as it is safer than using a relay to control 120V myself, which understandably my Professor would not let me do for this course.</li>
+          <li><a href=https://www.amazon.com/UCTRONICS-SSD1306-Self-Luminous-Display-Raspberry/dp/B072Q2X2LL/ref=sr_1_3?dchild=1&keywords=oled+display+arduino&qid=1602386754&sr=8-3>SPI OLED 128x64</a> - Simple SPI controlled OLED module. I picked one with the top two lines yellow to use as status indicators.</li>
+        </ul>
+        <h4>Digikey Parts</h4>
+        <ul>
+          <li><a href=https://www.digikey.com/en/products/detail/stmicroelectronics/LD1117V33/586012>LD1117V33 3.3V 800mA Linear Voltage Regulator</a> - stepping down from 5V to 3.3V for the OLED and the thermocouple modules.</li>
+          <li><a href=https://www.digikey.com/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5TL2/286538?s=N4IgTCBcDaIAQCEDCBGADADgCxICoFoA5AERAF0BfIA>3x 0.1uF Ceramic Capacitor</a> - power filtering.</li>
+          <li><a href=https://www.digikey.com/en/products/detail/nichicon/UKL1C100KDD1TD/5699141?s=N4IgTCBcDaICwE4DMBaAjHJc7pQOQBEQBdAXyA>2x 10uF Electrolytic Capacitor</a> - power filtering.</li>
+          <li><a href=https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF18JT4K70/1741708?s=N4IgTCBcDaIMIDECMAOAUgFQCwGkDsADHBgLQByAIiALoC%2BQA>2x 4.7K Resistor 1/8W</a> - for SPI.</li>
+          <li><a href=https://www.digikey.com/en/products/detail/phoenix-contact/1751248/2511016>2 Pin Screw Terminal</a> - for connecting the thermocouple to the board.</li>
+          <li><a href=https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC161LFBN-RC/810188?s=N4IgTCBcDaIAQAUkGECMA2VAZAYgIQDkBaAJWRAF0BfIA>16 pin socket</a> - micro controller socket.</li>
+          <li><a href=https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC121LFBN-RC/810184?s=N4IgTCBcDaIAoIMIEYzIDIDEBCA5AtAEqIgC6AvkA>12 pin socket</a> - micro controller socket.</li>
+          <li><a href=https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC041LFBN-RC/810176?s=N4IgTCBcDaIAoIMIAYAsBGAMgMQEIDkBaAJURAF0BfIA>2x 4 pin socket</a> - socket for the thermocouple amplifier and OLED. Long term, it would be best to solder both components for stability.</li>
+        </ul>
+        <p>All of the devices I chose support 3.3V logic. All power will be supplied by the USB adapter. This is not ideal, but this is the only realistic option on the HUZZAH32. The LD1117V33 will be used to power the OLED and the thermocouple modules.</p>
+        <h3>Schematic</h3>
+        <h3>PCB Layout</h3>
+      </div>
+      <div>
+        <h2>Software</h2>
+        SOURCE CODE LINK GITHUB
+      </div>
+      <div>
+        <h2>Usage</h2>
+        <h3>User Interfaces</h3>
+        <h5>Ideation and Design Process</h5>
+        <h3>Wax Heating and Candle Making Process</h3>
+      </div>
+      <div>
+      </div>
+      <h2>PCB Layout</h2>
+      <h2>
+        <p></p>
 
-      <h2>Software Approach</h2>
-      <h3>Finger Calibration</h3>
-      <a href="../index.html">Return to my personal website and portfolio</a>
+        <h2>Software Approach</h2>
+        <h3>Finger Calibration</h3>
+        <a href="../index.html">Return to my personal website and portfolio</a>
+      </div>
     </div>
-  </div>
 
 
-</body>
-</html>
+  </body>
+  </html>
