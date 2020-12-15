@@ -37,13 +37,13 @@
 <body style="background-color: #f5f6fa">
   <div id="portfolioColumn" class="portfolio-text">
     <div class="portfolio-text">
-      <h2 id="patch-panel-project">Vision Stand Calibration</h2>
+      <h1 id="patch-panel-project">Vision Stand Calibration</h1>
       <p><img src="../images/portfolio/items/vision_stand/stand_1.jpg" alt="Cover photo" /></p>
-      <h3 id="overview">Overview</h3>
+      <h2 id="overview">Overview</h2>
       <p>I developed software to calibrate the Vision Test Stands at JDES (John Deere Electronic Solutions). The testers verify the functionality of displays used in John Deere tractors and construction equipment. Each Vision Test Stand uses a camera to view the display and a pneumatic finger to interact with the display.<br><br>
         This project's goal was to calibrate the Vision Test Stands to make them functionality identical - to reduce the number of false failures during manufacturing. I used a pre-existing Vision Test Stand Diagnostic Fixture for a common reference to calibrate the stands. I wrote software to generate a local machine offset for the Pneumatic Finger position - such that the coordinate system was identical on all testers. I also wrote software to generate a table of exposures and expected color hues for each tester. Finally, I wrote reusable software to allow engineers to easily interact with these calibration files in their own code.</p>
 
-        <h3 id="my-role">My Role</h3>
+        <h2 id="my-role">My Role</h2>
         <p>I managed the Vision Stand Calibration project. I brought the project all the way from an initial problem to completion.
           This role included:</p>
           <ul style="padding-left:100">
@@ -51,12 +51,12 @@
             <li>Software Design - I created the calibration file format, software to generate the calibration files, and reusable software to access the calibration files for use in test software on the stands. All of the code was written in NI LabVIEW.</li>
             <li>Documentation - I created extensive documentation on all of the software I wrote and my engineering process. This included information on how to maintain and update the code I wrote, as well as how to use the utilities which access the calibration file data.</li>
           </ul>
-          <h3 id="approach">Software Approach</h3>
-          <h4>Finger Calibration</h4>
+          <h2 id="approach">Software Approach</h2>
+          <h3>Finger Calibration</h3>
           <p><img src="../images/portfolio/items/vision_stand/finger.jpg" alt="Finger" />
             <br>The finger lined up on the button during calibration.</p>
             <p>The Finger Calibration software directs the machine operator to line up the pneumatic finger over a button on the diagnostic fixture. The software then finds the difference between the read distance and the known distance of the button, writing that difference to a text file local to the machine.</p>
-            <h4>Color Hue Calibration</h4>
+            <h3>Color Hue Calibration</h3>
             The goal of the color hue calibration software is to create a table - specific to a tester - of exposures, expected hues, and tolerances for all colors used during screen functionality tests. For example, machine one may have an exposure of 100,000 ms to read blue as 145 and another machine may have an exposure of 40,000 ms to read blue as 140. <br> <br>The software generates the file by:
             <ol style="padding-left:100">
               <li>Rough Step Photos: Take photos from 10,000 ms exposure to 300,000 ms exposure, making 5000 ms steps. Find all color hues for every photo.</li>
