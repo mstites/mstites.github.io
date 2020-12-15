@@ -6,6 +6,14 @@ body {
   background-color: #f5f6fa;
 }
 
+hr {
+    width: 100%;
+    margin-bottom: 2.5em;
+    border: 0 none;
+    height: .2em;
+    background-color: #212121;
+}
+
 .subpage{
     margin-top: .5em;
     margin-bottom: 1em;
