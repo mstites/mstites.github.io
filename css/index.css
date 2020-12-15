@@ -2,6 +2,15 @@
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
+/* :root {
+  font-size: 62.5%;
+  body {
+    margin: 0;
+    // Body font size 16px
+    font-size: 1.6rem;
+  }
+} */
+
 .portfolio-text{
     margin-top: 3px;
     margin-bottom: 8px;
@@ -12,9 +21,21 @@
     max-width: 600px;
     align-content: center;
 }
-img{
-    max-width:600px;
-    max-height:400px
+
+.portfolio-text img{
+  max-width:600px;
+  max-height:400px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+body {
+  font-size: 20 rem;
+}
+p {
+  font-size: 20 px;
 }
 
 /* Social Links */
