@@ -9,13 +9,13 @@
   <meta name="author" content="Maeve Stites">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="../css/items.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="../css/index.css" media="screen,projection" />
   <link href="../css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
   <link rel="manifest" href="../images/favicon/site.webmanifest">
-  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileColor" c-ontent="#da532c">
   <meta name="theme-color" content="#ffffff">
   <meta name="theme-color" content="#f5f6fa">
   <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:500,600,700" rel="stylesheet">
@@ -37,40 +37,38 @@
 <body style="background-color: #f5f6fa">
   <div id="portfolioColumn" class="portfolio-text">
     <div class="portfolio-text">
-      <h2 id="patch-panel-project">Vision Stand Calibration</h2>
+      <h2>Wax Melter</h2>
       <p><img src="../images/portfolio/items/vision_stand/stand_1.jpg" alt="Cover photo" /></p>
-      <h3 id="overview">Overview</h3>
-      <p>I developed software to calibrate the Vision Test Stands at JDES (John Deere Electronic Solutions). The testers verify the functionality of displays used in John Deere tractors and construction equipment. Each Vision Test Stand uses a camera to view the display and a pneumatic finger to interact with the display.<br><br>
-        This project's goal was to calibrate the Vision Test Stands to make them functionality identical - to reduce the number of false failures during manufacturing. I used a pre-existing Vision Test Stand Diagnostic Fixture for a common reference to calibrate the stands. I wrote software to generate a local machine offset for the Pneumatic Finger position - such that the coordinate system was identical on all testers. I also wrote software to generate a table of exposures and expected color hues for each tester. Finally, I wrote reusable software to allow engineers to easily interact with these calibration files in their own code.</p>
+      <div>
+        <h3>Board Information</h3>
+        <h4>Parts List</h4>
+        with suppliers
+        github repo
+        <h4>Schematic</h4>
+        <h4>PCB Layout Information</h4>
+      </div>
+      <div>
+        <h3>Software</h3>
+        SOURCE CODE LINK GITHUB
+      </div>
+      <div>
+        <h3>Usage</h3>
+        <h4>User Interfaces</h4>
+        <h5>Ideation and Design Process</h5>
+        <h4>Wax Heating and Candle Making Process</h4>
+      </div>
+      <div>
+      </div>
+      <h3>PCB Layout</h3>
+      <h3>
+        <p></p>
 
-        <h3 id="my-role">My Role</h3>
-        <p>I managed the Vision Stand Calibration project. I brought the project all the way from an initial problem to completion.
-          This role included:</p>
-          <ul style="padding-left:100">
-            <li>Project planning - When I first got this project, I was told to find a way to calibrate the finger and camera on the Vision Test Stands. It was my responsibility to come up with the approach on how to do this. </li>
-            <li>Software Design - I created the calibration file format, software to generate the calibration files, and reusable software to access the calibration files for use in test software on the stands. All of the code was written in NI LabVIEW.</li>
-            <li>Documentation - I created extensive documentation on all of the software I wrote and my engineering process. This included information on how to maintain and update the code I wrote, as well as how to use the utilities which access the calibration file data.</li>
-          </ul>
-          <h3 id="approach">Software Approach</h3>
-          <h4>Finger Calibration</h4>
-          <p><img src="../images/portfolio/items/vision_stand/finger.jpg" alt="Finger" />
-            <br>The finger lined up on the button during calibration.</p>
-            <p>The Finger Calibration software directs the machine operator to line up the pneumatic finger over a button on the diagnostic fixture. The software then finds the difference between the read distance and the known distance of the button, writing that difference to a text file local to the machine.</p>
-            <h4>Color Hue Calibration</h4>
-            The goal of the color hue calibration software is to create a table - specific to a tester - of exposures, expected hues, and tolerances for all colors used during screen functionality tests. For example, machine one may have an exposure of 100,000 ms to read blue as 145 and another machine may have an exposure of 40,000 ms to read blue as 140. <br> <br>The software generates the file by:
-            <ol style="padding-left:100">
-              <li>Rough Step Photos: Take photos from 10,000 ms exposure to 300,000 ms exposure, making 5000 ms steps. Find all color hues for every photo.</li>
-              <li>Pick the best Rough Exposure for each Color: Choose the exposure that returned the hue closest to the ideal hue for each color (IE Blue is 140). </li>
-              <li>Find the best Exposure for each Color: Starting from the best rough exposure for each color, the software takes photos with exposure time steps of 1000ms to find a more ideal exposure setting that returns a more accurate hue reading. The software knows which direction to search in based on if the hue reading was higher or lower than desired; since we know that as exposure time increases, hue reading decreases. </li>
-              <li>Get Hue Reading: Using the exposure values found for each color, take 10 photos and find the hue reading for each, save the mean of that value as the ideal hue.</li>
-              <li>Write Results to File: Record the exposure time setting, hue reading, and tolerance values for each color to a csv file.</li>
-            </ol>
-            The two part process to find the exposure time (first finding a rough exposure, than a more ideal one) reduces the run time from over ten minutes to under three minutes when compared to taking photos with exposure times incrementing by 1000 ms from 10,000 to 300,000 ms.
-
-            <p><a href="https://www.mstites.com/">Return to personal website and portfolio</a></p>
-          </div>
-        </div>
+        <h3>Software Approach</h3>
+        <h4>Finger Calibration</h4>
+        <p><a href="https://www.mstites.com/">Return to personal website and portfolio</a></p>
+      </div>
+    </div>
 
 
-      </body>
-      </html>
+  </body>
+  </html>
