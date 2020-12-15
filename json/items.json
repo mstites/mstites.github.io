@@ -1,5 +1,12 @@
 [
   {
+    "name": "Wax Melter",
+    "description": "I designed and programmed a board to heat wax (used in candle making) to a specified temperature based on user input. I came up with the problem statement, wrote the proposal,  designed the schematic, layed out the PCB, wrote the C code, tested, and refined the system. <br><br>This project was chosen because I run a candle business and wanted to optimize my workflow. The system is controllable via an OLED with buttons interface and a self hosted web interface. This dual UI approach allows monitoring next to the unit or more remotely.<br><br>The board heats the wax via a hot plate it controls via flipping a relay outlet. The wax itself is in a double broiler ontop of the hot plate.",
+    "image": "images/portfolio/wax_melter.jpg",
+    "link": "items/wax_melter.html",
+    "link_name": "More Info"
+  },
+  {
     "name": "Create",
     "description": "Who said engineers had to be all logic and no liminality?<br><br>I sometimes find it necessary to escape the technical swamp and dart into the artistic caverns of my brain. <i>Create</i> is a porthole into those realms. The site features works which draw heavily on my lived experiences as a lesbian, poly, non-binary, trans woman.<br><br>There’s a zines page which features collections of my poetry, short essays, and journals from different stages of my trans experiences.<br><br>I also maintain an extensive transgender and trans allyship resource list on the site.",
     "image": "images/portfolio/create.jpg",
