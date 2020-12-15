@@ -59,21 +59,21 @@
     "name": "Patch Network",
     "description": "I designed and installed a patch network for use in the Networking, Integration, and Automation (NIA) lab. This included project planning, running team meetings, scheduling, managing material lists, and managing a budget.  <br><br>The project came in on time and under budget. In total, the project involved 21 separate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections. The project will save hundreds of engineering hours in the future as it makes connecting different devices across the lab fast, neat, and easy.",
     "image": "images/portfolio/patchpanelproject.jpg",
-    "link": "/items/patch_network.html",
+    "link": "items/patch_network.html",
     "link_name": "More Info"
   },
   {
     "name": "Nancy Walker",
     "description": "I worked on a team to help design the perfect walker for an older adult. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and feel safer than ever before.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner. This was an incredibly rewarding experience to be able to improve the life of someone.",
     "image": "images/portfolio/walker.jpg",
-    "link": "/items/walker.html",
+    "link": "items/walker.html",
     "link_name": "More Info"
   },
   {
     "name": "Laser Cut Comp. Case",
     "description": "Spurred by frustrations with existing products on the market, I experimented with new designs for compact and portable computer cases. I tested a number of different designs which could in the future be developed into a more refined product.<br><br>The cases were made by laser cutting plywood. This method was chosen because it is a cheap and fast prototyping method.",
     "image": "images/portfolio/case.jpg",
-    "link": "/items/case.html",
+    "link": "items/case.html",
     "link_name": "More Info"
   },
   {
@@ -87,21 +87,21 @@
     "name": "Big Jake",
     "description": "I led a team of 55 students to create a competition ready robot in a six week build season. Throughout the season, I led the team through building three different robots. The pictured robot was the final design and competed in the 2018 FRC competition: Power Up. The robot was undefeated in qualifications and ranked number one at the Iowa regional.",
     "image": "images/portfolio/bigjake.jpg",
-    "link": "/items/big_jake.html",
+    "link": "items/big_jake.html",
     "link_name": "More Info"
   },
   {
     "name": "Silver",
     "description": "I worked as the Electrical Lead for the design of Silver, as well as serving as the Drive Coach at competitions. Silver used a drive train new to our team: Swerve. Swerve utilizes four wheels which are able to be independently turned 360 degrees.  <br><br>I worked to solve the new and challenging electrical and programming challenges which came with this new drive train. Examples of these challenges included accurately measuring wheel position and maintaining robot orientation. Silver won the Iowa regional and made it to the world competition.",
     "image": "images/portfolio/silver.jpg",
-    "link": "/items/silver.html",
+    "link": "items/silver.html",
     "link_name": "More Info"
   },
   {
     "name": "Macropad",
     "description": "I designed, machined, assembled, and programmed this Macropad. It is a completely custom design which is optimized to my own work flow. This photo is also representative of my greater obsession with work flow.  <br><br>I build my own custom keyboards, create custom keyboard layouts, type in Dvorak (A more efficient keyboard layout), and use a variety of different programs and desktop environments (Where appropriate) to optimize my work on computers.",
     "image": "images/portfolio/macropad.jpg",
-    "link": "/items/macropad.html",
+    "link": "items/macropad.html",
     "link_name": "Build Log"
   }
 ]
