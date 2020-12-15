@@ -38,6 +38,10 @@ ul {
   list-style-position: inside;
 }
 
+ul li {
+  padding-bottom: .5rem;
+}
+
 hr {
     width: 100%;
     margin-bottom: 2.5em;
