@@ -2,20 +2,21 @@
     font-family: 'Saira Semi Condensed', sans-serif;
 }
 
-.portfolio-text{
-    margin-top: 3px;
-    margin-bottom: 8px;
+.subpage{
+    margin-top: .5em;
+    margin-bottom: 1em;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 100%;
-    max-width: 50vw;
+    width: 50vw;
+    max-width: 2000px;
     align-content: center;
 }
 
-.portfolio-text img{
-  max-width:600px;
-  max-height:400px;
+.subpage img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* Text Sizes */
