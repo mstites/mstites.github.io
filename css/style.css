@@ -6,6 +6,38 @@ body {
   background-color: #f5f6fa;
 }
 
+/* Text Sizes */
+h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 550;
+}
+
+h3 {
+  font-size: 2.25rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.6rem;
+}
+
+h6 {
+  font-size: 1.4rem;
+}
+
+ul {
+  list-style-position: inside;
+}
+
 hr {
     width: 100%;
     margin-bottom: 2.5em;
@@ -40,34 +72,6 @@ hr {
 
 .subpage .imageCap p{
   text-align: center;
-}
-
-/* Text Sizes */
-h1 {
-  font-size: 3.5rem;
-  font-weight: 600;
-  text-align: center;
-}
-
-h2 {
-  font-size: 3rem;
-  font-weight: 550;
-}
-
-h3 {
-  font-size: 2.25rem;
-}
-
-h4 {
-  font-size: 2rem;
-}
-
-h5 {
-  font-size: 1.6rem;
-}
-
-h6 {
-  font-size: 1.4rem;
 }
 
 /* Social Links */
