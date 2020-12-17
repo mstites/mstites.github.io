@@ -37,11 +37,25 @@
       <img src="../images/portfolio/items/wax_melter/high_res.jpg" alt="Cover photo">
       <div>
         <h2>Results</h2>
+        <p>For full code and schematics please see the <a href="https://github.com/mstites/waxMelter">waxMelter</a> github.</p>
         <div>
           <h3>Board</h3>
+          <p>With those considerations in mind, I created the following PCB:</p>
+          <div class="imageCap">
+            <img src="../images/portfolio/items/wax_melter/board/front.jpg" alt="front of the pcb">
+            <p>Front of the finalized PCB with most of the major components: microcontroller, one thermocouple amplifier with room for another, 3.3V linear regulator and associated filering, and screw terminal for relay control.</p>
+            <img src="../images/portfolio/items/wax_melter/board/back.jpg" alt="back of the pcb">
+            <p>Back of the PCB with the OLED and button control UI. There is a wire for a connection modification with the thermocouple amplifier to a different analog read port.</p>
+          </div>
         </div>
         <div>
           <h3>In Action</h3>
+          <div class="imageCap">
+            <img src="../images/portfolio/items/wax_melter/board/front.jpg" alt="front of the pcb">
+            <p>Front of the finalized PCB with most of the major components: microcontroller, one thermocouple amplifier with room for another, 3.3V linear regulator and associated filering, and screw terminal for relay control.</p>
+            <img src="../images/portfolio/items/wax_melter/board/back.jpg" alt="back of the pcb">
+            <p>Back of the PCB with the OLED and button control UI. There is a wire for a connection modification with the thermocouple amplifier to a different analog read port.</p>
+          </div>
           <p>ADD SHORT INTRO VIDEO TESTING VIDEO</p>
           <p>Photos in use</p>
           <p>You can see the full first system test <a href="https://www.youtube.com/playlist?list=PLl34vFjrV3SNVaj6ajRUN01m7x6o9dpL4">here</a>.</p>
@@ -80,9 +94,9 @@
           <h3>Schematic</h3>
           <p>My schematic(s) for this project, click on the image for a full PDF download:</p>
           <div class="imageCap large">
-            <a href="../images/portfolio/items/wax_melter/schematic/schematicAsBuilt.pdf"><img src="../images/portfolio/items/wax_melter/schematic/schematicAsBuilt.jpg" alt="front of the pcb"></a>
+            <a href="../images/portfolio/items/wax_melter/schematic/schematicAsBuilt.pdf"><img src="../images/portfolio/items/wax_melter/schematic/schematicAsBuilt.jpg" alt="As built schematic"></a>
             <p>The schematic as used for my PCB design.</p>
-            <a href="../images/portfolio/items/wax_melter/schematic/schematicRecommended.pdf"><img src="../images/portfolio/items/wax_melter/schematic/schematicRecommended.jpg" alt="back of the pcb"></a>
+            <a href="../images/portfolio/items/wax_melter/schematic/schematicRecommended.pdf"><img src="../images/portfolio/items/wax_melter/schematic/schematicRecommended.jpg" alt="Recommended schematic"></a>
             <p>Recommended PCB schematic for future iterations.</p>
           </div>
           <p>The key difference between these two schematics is in the analog inputs used for the thermocouple amplifier readings.  In the first iteration, I used A1 and A5 on the ESP32, which are on ADC channel #2. In the second iteration, I used A2  and A4, which  are on ADC channel #2. This change was due to a discovered conflict between WiFi and ADC #2.</p>
@@ -269,10 +283,7 @@
         </div>
       </div>
     </div>
+    <a href="../index.html">Return to my personal website and portfolio</a>
   </div>
-  <a href="../index.html">Return to my personal website and portfolio</a>
-</div>
-
-
 </body>
 </html>
