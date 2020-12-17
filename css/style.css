@@ -83,6 +83,11 @@ code {
   text-align: center;
 }
 
+.subpage .large img{
+  max-width: 90%;
+  max-height: 50vh;
+}
+
 /* Social Links */
 
 #socialLinkSection {
