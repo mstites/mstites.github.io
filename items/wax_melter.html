@@ -83,8 +83,10 @@
             <a href="../images/portfolio/items/wax_melter/schematic/schematicAsBuilt.pdf"><img src="../images/portfolio/items/wax_melter/schematic/schematicAsBuilt.jpg" alt="front of the pcb"></a>
             <p>The schematic as used for my PCB design.</p>
             <a href="../images/portfolio/items/wax_melter/schematic/schematicRecommended.pdf"><img src="../images/portfolio/items/wax_melter/schematic/schematicRecommended.jpg" alt="back of the pcb"></a>
-            <p>My recommended PCB schematic if someone were to repeat my work or if I were to make another PCB.</p>
+            <p>Recommended PCB schematic for future iterations.</p>
           </div>
+          <p>The key difference between these two schematics is in the analog inputs used for the thermocouple amplifier readings.  In the first iteration, I used A1 and A5 on the ESP32, which are on ADC channel #2. In the second iteration, I used A2  and A4, which  are on ADC channel #2. This change was due to a discovered conflict between WiFi and ADC #2.</p>
+          <p>I used a Linear Voltage Regular pulling power from 5V USB to supply 3.3V to all the modules. There is a on board 3.3V regulator on the HUZZAH32 board, which can be used to supply off board components. However, the other modules I have plus the ESP32 would have been up against the limit of the HUZZAH32's on board regulator's capacity and I did not want to interfere with  the chip's power supply. There are a number of capacitors throughout my schematic, 0.1uF and 10uF, for filtering and power stabilization.</p>
         </div>
         <div>
           <h3>PCB Layout</h3>
