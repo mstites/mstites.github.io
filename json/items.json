@@ -35,13 +35,6 @@
     "link_name": "LinkedIn Post"
   },
   {
-    "name": "project they",
-    "description": "A website I built to support gender non-conforming and transgender people everywhere. The site seeks to break down gender norms and normalize gender non-conformity and people who live outside the binary. <br><br> The site consists of three main sections: a lookbook, poetry, and resources. The lookbook and poetry are sections where I use creativity and emotional vulnerability in the hopes that others who are struggling with similar issues can relate to me. The resources section has links to everything from basic terminology to extensive guides and support, some of the resources I created.<br><br> Creating this site helped me to learn HTML, CSS, and web design. I got to move out of my usual engineering space to grow as a creater and artist.",
-    "image": "images/portfolio/projectthey.jpg",
-    "link": "https://they.mstites.com/",
-    "link_name": "project they Website"
-  },
-  {
     "name": "Flag Quest",
     "description": "I worked with a team to develop Flag Quest. Flag Quest is a rogue like game created to spread awareness of LGBTQ+ identities by integrating the elements of LGBTQ+ flags into fun puzzles. <br><br> The player navigates obstacles to collect colors of a certain LGBTQ+ Flag. When the flag is complete, an educational book is displayed. I worked on a variety of tasks including: the educational end screen books, the flashlight module, controller module, code organization, and the project website.",
     "image": "images/portfolio/flagquest.jpg",
