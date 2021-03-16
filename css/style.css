@@ -1,5 +1,5 @@
 :root {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -51,11 +51,11 @@ ul li {
 }
 
 hr {
-    width: 100%;
-    margin-bottom: 2.5em;
-    border: 0 none;
-    height: .2em;
-    background-color: #212121;
+  width: 100%;
+  margin-bottom: 2.5em;
+  border: 0 none;
+  height: .2em;
+  background-color: #212121;
 }
 
 code {
@@ -172,8 +172,7 @@ code {
 }
 
 /* Cards */
-.card-main-image,
-.card-image {
+.card-main-image, .card-image {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
@@ -187,46 +186,10 @@ code {
   border-bottom-right-radius: 2px !important;
 }
 
-/* Breakpoint resizing */
-@media only screen and (max-width: 1260px) {
-  #portfolioText {
-    font-size: 2rem;
-    margin-bottom: -20px;
-  }
-  #firstCategoryText {
-    font-size: 1.2rem;
-  }
-  #heroName {
-    font-size: 2.0rem;
-  }
-  #description {
-    font-size: 1.1rem;
-  }
-  #profileImage {
-    height: 125px;
-    width: 125px;
-    margin-top: calc(30%);
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  #profileImage {
-    margin-top: calc(10%);
-  }
-  #portfolioTitle {
-    text-align: center;
-  }
-  #portfolioColumn {
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-}
-
 #contactButton {
   border: 2px solid black;
   font-weight: 600;
-  color: black;
-  margin-top: 15px;
+  color: black;  margin-top: 15px;
 }
 
 #contactButton p {
@@ -238,8 +201,8 @@ code {
   color: white;
   background-color: black;
 }
-/* Colors */
 
+/* Colors */
 .primary-light {
   color: #90CAF9;
 }
@@ -286,4 +249,70 @@ code {
 
 .secondary-dark-b {
   background-color: #FFA000;
+}
+
+/* Breakpoint resizing */
+@media only screen and (max-width: 1260px) {
+  #portfolioText {
+    font-size: 2rem;
+    margin-bottom: -20px;
+  }
+  #firstCategoryText {
+    font-size: 1.2rem;
+  }
+  #heroName {
+    font-size: 2.0rem;
+  }
+  #description {
+    font-size: 1.1rem;
+  }
+  #profileImage {
+    height: 125px;
+    width: 125px;
+    margin-top: calc(30%);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #profileImage {
+    margin-top: calc(10%);
+  }
+  #portfolioTitle {
+    text-align: center;
+  }
+  #portfolioColumn {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+/* Mobile */
+@media (hover:none), (hover:on-demand) {
+  .subpage {
+    width: 85%;
+  }
+  h1 {
+    font-size: 2.6rem;
+  }
+  h2 {
+    font-size: 2.2rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.8rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+  h6 {
+    font-size: 1.3rem;
+  }
+  .subpage img {
+    max-width: 100%;
+  }
+  .subpage .large img {
+    max-width: 100%;
+  }
 }
