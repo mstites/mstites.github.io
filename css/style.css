@@ -64,14 +64,14 @@ code {
 }
 
 .subpage{
-    margin-top: .5rem;
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 65vw;
-    max-width: 55rem;
-    align-content: center;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 65vw;
+  max-width: 55rem;
+  align-content: center;
 }
 
 .subpage img {
@@ -112,7 +112,7 @@ code {
   text-align: center;
 }
 
-.links {
+.links { /* Social media links */
   margin: 0 20px 0 20px;
   display: inline-block;
   font-size: 16px;
@@ -120,6 +120,11 @@ code {
   border-radius: 3px;
   padding: 5px 10px 5px 10px;
 }
+
+.links a {
+  text-decoration: none;
+}
+
 
 .links:hover {
   background-color: lightgrey;
