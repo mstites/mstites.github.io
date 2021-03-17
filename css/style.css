@@ -150,11 +150,11 @@ code {
   font-size: 1.3rem;
 }
 
-#portfolioTitle {
+#pageTitle {
   margin-left: 8px;
 }
 
-#portfolioText {
+#pageText {
   margin-top: 0px;
   margin-bottom: -30px;
   font-weight: 500;
@@ -167,7 +167,7 @@ code {
   font-size: 1.4rem;
 }
 
-#portfolioColumn {
+#pageColumn {
   padding: 24px;
 }
 
@@ -253,11 +253,11 @@ code {
 
 /* Breakpoint resizing */
 @media only screen and (max-width: 1260px) {
-  #portfolioText {
+  #pageText {
     font-size: 2rem;
     margin-bottom: -20px;
   }
-  #firstCategoryText {
+  #categoryText {
     font-size: 1.2rem;
   }
   #heroName {
@@ -277,10 +277,10 @@ code {
   #profileImage {
     margin-top: calc(10%);
   }
-  #portfolioTitle {
+  #pageTitle {
     text-align: center;
   }
-  #portfolioColumn {
+  #pageColumn {
     padding-left: 8px;
     padding-right: 8px;
   }
