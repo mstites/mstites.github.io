@@ -63,18 +63,18 @@ code {
   padding: 2px;
 }
 
-.subpage{
+.item{
   margin-top: .5rem;
   margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 65vw;
-  max-width: 55rem;
+  max-width: 70rem;
   align-content: center;
 }
 
-.subpage img {
+.item img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -83,16 +83,16 @@ code {
   width: auto;
 }
 
-.subpage .imageCap img{
+.item .imageCap img{
   padding-top: .5rem;
   max-height: 32vh;
 }
 
-.subpage .imageCap p{
+.item .imageCap p{
   text-align: center;
 }
 
-.subpage .large img{
+.item .large img{
   max-width: 90%;
   max-height: 50vh;
 }
@@ -288,7 +288,7 @@ code {
 
 /* Mobile */
 @media (hover:none), (hover:on-demand) {
-  .subpage {
+  .item {
     width: 85%;
   }
   h1 {
@@ -309,10 +309,10 @@ code {
   h6 {
     font-size: 1.3rem;
   }
-  .subpage img {
+  .item img {
     max-width: 100%;
   }
-  .subpage .large img {
+  .item .large img {
     max-width: 100%;
   }
 }
