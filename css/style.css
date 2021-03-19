@@ -280,6 +280,7 @@ code {
     border: 2px solid var(--main-txt-color);
     font-weight: 600;
     color: var(--main-txt-color);  margin-top: 15px;
+    font-size: .8rem;
   }
   #contactButton p {
     margin: 0px;
