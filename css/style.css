@@ -303,17 +303,15 @@ code {
   .item .large img {
     max-width: 100%;
   }
+  .navbar li {
+    padding-left: 1rem;;
+    padding-right: 1rem;
+  }
   .navbar li a {
     font-size: 1.5rem;
   }
   #contactButton {
-    border: 2px solid var(--main-txt-color);
-    font-weight: 600;
-    color: var(--main-txt-color);  margin-top: 15px;
-    font-size: .8rem;
-  }
-  #contactButton p {
-    margin: 0px;
-    margin-top: -1px;
+    font-size: .9rem;
+    height: 38px;
   }
 }
