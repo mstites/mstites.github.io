@@ -88,11 +88,10 @@ code {
 
 /* Navbar */
 .navbar {
-  /* padding: 1em 0em 1em 0em; */
+  padding-bottom: 2rem;
 }
 
 .navbar ul {
-  margin: auto;
   overflow: hidden;
   display: table;
 }
@@ -102,30 +101,25 @@ code {
   font-weight: 600;
   color: var(--main-txt-color);  margin-top: 15px;
   display: inline-block;
+  padding-right: 4rem;
 }
 
 .navbar li a {
   margin-top: 0px;
   margin-bottom: -30px;
   font-weight: 500;
-  font-size: 2.2rem;
+  font-size: 2rem;
   text-decoration: none;
+  font-weight:300;
   color: var(--main-txt-color);
-  /* display: inline-block; */
-  /* color: var(--main-txt-color); */
-  /* text-align: center; */
-  /* padding: 1em 1em; */
 }
 
 .navbar li a:hover:not(.active) {
-  /* background-color: var(--tertiary-bg-color); */
-  /* color: white;
-  background-color: black; */
+  font-weight: 500;
 }
 
 .navbar li a.active {
-  /* color: white;
-  background-color: black; */
+  font-weight: 500;
 }
 
 /* Social Links */
@@ -183,19 +177,6 @@ code {
 
 #pageTitle {
   margin-left: 8px;
-}
-
-#pageText {
-  margin-top: 0px;
-  margin-bottom: -30px;
-  font-weight: 500;
-  font-size: 2.2rem;
-}
-
-#categoryText {
-  margin-bottom: 20px;
-  font-weight: 400;
-  font-size: 1.4rem;
 }
 
 #pageColumn {
@@ -267,6 +248,13 @@ code {
     padding-right: 8px;
   }
   /* Center Items */
+  .navbar ul {
+    margin: auto;
+  }
+  .navbar li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
   .item {
     margin-left: auto;
     margin-right: auto;
