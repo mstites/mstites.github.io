@@ -241,6 +241,7 @@ code {
   }
 }
 
+/* Header on top */
 @media only screen and (max-width: 992px) {
   #profileImage {
     margin-top: calc(10%);
@@ -279,6 +280,7 @@ code {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-right: 0rem;
   }
   .item img {
     display: block;
