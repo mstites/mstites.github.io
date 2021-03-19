@@ -267,24 +267,6 @@ code {
   .item {
     width: 85%;
   }
-  h1 {
-    font-size: 2.6rem;
-  }
-  h2 {
-    font-size: 2.2rem;
-  }
-  h3 {
-    font-size: 2rem;
-  }
-  h4 {
-    font-size: 1.8rem;
-  }
-  h5 {
-    font-size: 1.5rem;
-  }
-  h6 {
-    font-size: 1.3rem;
-  }
   .item img {
     max-width: 100%;
   }
@@ -293,5 +275,14 @@ code {
   }
   .navbar li a {
     font-size: 1.5rem;
+  }
+  #contactButton {
+    border: 2px solid var(--main-txt-color);
+    font-weight: 600;
+    color: var(--main-txt-color);  margin-top: 15px;
+  }
+  #contactButton p {
+    margin: 0px;
+    margin-top: -1px;
   }
 }
