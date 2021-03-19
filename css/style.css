@@ -69,12 +69,11 @@ code {
 
 .item .imageCap img{
   padding-top: .5rem;
-  max-height: 32vh;
 }
 
 .item .large img{
-  max-width: 90%;
-  max-height: 50vh;
+  max-width: 100%;
+  max-height: 70vh;
 }
 
 /* Navbar */
