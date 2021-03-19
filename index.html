@@ -28,36 +28,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
-  <div>
-    <div class="row">
-      <div id="profileColumn" class="col s12 l4 center">
-        <img id="profileImage" src="images/profile.jpg" class="z-depth-3 circle responsive-img" />
-        <h3 id="heroName" class="center-align">Maeve Stites</h3>
-        <p id="description" class="center-align">Electrical and Computer Engineering major at <br>
-          <a style="text-decoration: none;" href="http://olin.edu/" target="_blank">Olin College of Engineering</a>
-          <br>Pronouns: <a style="text-decoration: none;" href="https://www.mypronouns.org/they-them" target="_blank">they/them</a></p>
-          <div id="socialLinkSection">
-            <section class="tab">
-              <div id="socialLinkContent">
-                <!-- Social links dynamically generated from links.json -->
-              </div>
-            </section>
+  <div class="row">
+    <div id="profileColumn" class="col s12 l4 center">
+      <img id="profileImage" src="images/profile.jpg" class="z-depth-3 circle responsive-img" />
+      <h3 id="heroName" class="center-align">Maeve Stites</h3>
+      <p id="description" class="center-align">Electrical and Computer Engineering major at <br> <a style="text-decoration: none;" href="http://olin.edu/" target="_blank">Olin College of Engineering</a><br>Pronouns: <a style="text-decoration: none;" href="https://www.mypronouns.org/they-them" target="_blank">they/them</a></p>
+      <div id="socialLinkSection">
+        <section class="tab">
+          <div id="socialLinkContent">
+            <!-- Social links dynamically generated from links.json -->
           </div>
-          <a id="contactButton" class="waves-effect waves-grey btn-flat" href="mailto:maeve@mstites.com"><p>Contact Me: maeve@mstites.com</p></a>
-        </div>
-        <div id="pageColumn" class="col s12 m12 l8">
-          <div id="pageTitle">
-            <p id="pageText">Portfolio</p>
-            <p id="categoryText">My Work</p>
-          </div>
-          <div class="row" id="portfolioItemContainer">
-            <!-- Work cards dynamically generated from items.json -->
-          </div>
-        </div>
+        </section>
       </div>
+      <a id="contactButton" class="waves-effect waves-grey btn-flat" href="mailto:maeve@mstites.com">Contact Me: maeve@mstites.com</a>
     </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-  </body>
-  </html>
+  </div>
+  <div id="pageColumn" class="col s12 m12 l8">
+    <div id="pageTitle">
+      <p id="pageText">Portfolio</p>
+      <p id="categoryText">My Work</p>
+    </div>
+    <div class="row" id="portfolioItemContainer">
+      <!-- Work cards dynamically generated from items.json -->
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
