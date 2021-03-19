@@ -58,7 +58,8 @@ code {
   margin-top: .5rem;
   margin-bottom: 1rem;
   width: 65vw;
-  max-width: 60rem
+  max-width: 63rem;
+  padding-right: 3rem;
 }
 
 .item img {
