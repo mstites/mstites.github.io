@@ -1,5 +1,6 @@
 :root {
   font-family: 'Montserrat', sans-serif;
+  --main-txt-color: black;
 }
 
 body {
@@ -83,6 +84,48 @@ code {
 .item .large img{
   max-width: 90%;
   max-height: 50vh;
+}
+
+/* Navbar */
+.navbar {
+  /* padding: 1em 0em 1em 0em; */
+}
+
+.navbar ul {
+  margin: auto;
+  overflow: hidden;
+  display: table;
+}
+
+.navbar li {
+  /* border: 2px solid black; */
+  font-weight: 600;
+  color: var(--main-txt-color);  margin-top: 15px;
+  display: inline-block;
+}
+
+.navbar li a {
+  margin-top: 0px;
+  margin-bottom: -30px;
+  font-weight: 500;
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: var(--main-txt-color);
+  /* display: inline-block; */
+  /* color: var(--main-txt-color); */
+  /* text-align: center; */
+  /* padding: 1em 1em; */
+}
+
+.navbar li a:hover:not(.active) {
+  /* background-color: var(--tertiary-bg-color); */
+  /* color: white;
+  background-color: black; */
+}
+
+.navbar li a.active {
+  /* color: white;
+  background-color: black; */
 }
 
 /* Social Links */
@@ -175,9 +218,9 @@ code {
 }
 
 #contactButton {
-  border: 2px solid black;
+  border: 2px solid var(--main-txt-color);
   font-weight: 600;
-  color: black;  margin-top: 15px;
+  color: var(--main-txt-color);  margin-top: 15px;
 }
 
 #contactButton p {
@@ -187,56 +230,7 @@ code {
 
 #contactButton:hover {
   color: white;
-  background-color: black;
-}
-
-/* Colors */
-.primary-light {
-  color: #90CAF9;
-}
-
-.primary-normal {
-  color: #2196F3;
-}
-
-.primary-dark {
-  color: #1976D2;
-}
-
-.secondary-light {
-  color: #FFE082;
-}
-
-.secondary-normal {
-  color: #FFC107;
-}
-
-.secondary-dark {
-  color: #FFA000;
-}
-
-.primary-light-b {
-  background-color: #90CAF9;
-}
-
-.primary-normal-b {
-  background-color: #2196F3;
-}
-
-.primary-dark-b {
-  background-color: #1976D2;
-}
-
-.secondary-light-b {
-  background-color: #FFE082;
-}
-
-.secondary-normal-b {
-  background-color: #FFC107;
-}
-
-.secondary-dark-b {
-  background-color: #FFA000;
+  background-color: var(--main-txt-color);
 }
 
 /* Breakpoint resizing */
