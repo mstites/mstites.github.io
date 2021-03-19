@@ -1,5 +1,6 @@
 :root {
   font-family: 'Montserrat', sans-serif;
+  --main-txt-color: black;
 }
 
 body {
@@ -8,37 +9,27 @@ body {
 
 /* Text Sizes */
 h1 {
-  font-size: 3.5rem;
-  font-weight: 900;
-  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
   font-family: 'Lato', sans-serif;
+  /* padding-bottom: 1rem; */
 }
 
 h2 {
-  font-size: 2.5em;
-  font-weight: 900;
-  font-family: 'Lato', sans-serif;
-}
-
-h3 {
-  font-size: 2.25rem;
+  font-size: 2em;
   font-weight: 700;
   font-family: 'Lato', sans-serif;
 }
 
-h4 {
+h3 {
   font-size: 1.8rem;
   font-weight: 700;
   font-family: 'Lato', sans-serif;
 }
 
-h5 {
-  font-size: 1.6rem;
-  font-family: 'Lato', sans-serif;
-}
-
-h6 {
+h4 {
   font-size: 1.4rem;
+  font-weight: 700;
   font-family: 'Lato', sans-serif;
 }
 
@@ -55,7 +46,7 @@ hr {
   margin-bottom: 2.5em;
   border: 0 none;
   height: .2em;
-  background-color: #212121;
+  background-color: var(--main-txt-color);
 }
 
 code {
@@ -63,38 +54,63 @@ code {
   padding: 2px;
 }
 
-.subpage{
+.item {
   margin-top: .5rem;
   margin-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
   width: 65vw;
-  max-width: 55rem;
-  align-content: center;
+  max-width: 60rem
 }
 
-.subpage img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.item img {
   max-height: 50vh;
   max-width: 70%;
   width: auto;
 }
 
-.subpage .imageCap img{
+.item .imageCap img{
   padding-top: .5rem;
-  max-height: 32vh;
 }
 
-.subpage .imageCap p{
-  text-align: center;
+.item .large img{
+  max-width: 100%;
+  max-height: 70vh;
 }
 
-.subpage .large img{
-  max-width: 90%;
-  max-height: 50vh;
+/* Navbar */
+#home {
+  margin-left: 8px;
+  padding-bottom: 2rem;
+}
+
+.navbar ul {
+  overflow: hidden;
+  display: table;
+}
+
+.navbar li {
+  /* border: 2px solid black; */
+  font-weight: 600;
+  color: var(--main-txt-color);  margin-top: 15px;
+  display: inline-block;
+  padding-right: 4rem;
+}
+
+.navbar li a {
+  margin-top: 0px;
+  margin-bottom: -30px;
+  font-weight: 500;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight:300;
+  color: var(--main-txt-color);
+}
+
+.navbar li a:hover:not(.active) {
+  font-weight: 500;
+}
+
+.navbar li a.active {
+  font-weight: 500;
 }
 
 /* Social Links */
@@ -150,23 +166,6 @@ code {
   font-size: 1.3rem;
 }
 
-#pageTitle {
-  margin-left: 8px;
-}
-
-#pageText {
-  margin-top: 0px;
-  margin-bottom: -30px;
-  font-weight: 500;
-  font-size: 2.2rem;
-}
-
-#categoryText {
-  margin-bottom: 20px;
-  font-weight: 400;
-  font-size: 1.4rem;
-}
-
 #pageColumn {
   padding: 24px;
 }
@@ -187,9 +186,9 @@ code {
 }
 
 #contactButton {
-  border: 2px solid black;
+  border: 2px solid var(--main-txt-color);
   font-weight: 600;
-  color: black;  margin-top: 15px;
+  color: var(--main-txt-color);  margin-top: 15px;
 }
 
 #contactButton p {
@@ -199,56 +198,7 @@ code {
 
 #contactButton:hover {
   color: white;
-  background-color: black;
-}
-
-/* Colors */
-.primary-light {
-  color: #90CAF9;
-}
-
-.primary-normal {
-  color: #2196F3;
-}
-
-.primary-dark {
-  color: #1976D2;
-}
-
-.secondary-light {
-  color: #FFE082;
-}
-
-.secondary-normal {
-  color: #FFC107;
-}
-
-.secondary-dark {
-  color: #FFA000;
-}
-
-.primary-light-b {
-  background-color: #90CAF9;
-}
-
-.primary-normal-b {
-  background-color: #2196F3;
-}
-
-.primary-dark-b {
-  background-color: #1976D2;
-}
-
-.secondary-light-b {
-  background-color: #FFE082;
-}
-
-.secondary-normal-b {
-  background-color: #FFC107;
-}
-
-.secondary-dark-b {
-  background-color: #FFA000;
+  background-color: var(--main-txt-color);
 }
 
 /* Breakpoint resizing */
@@ -284,11 +234,35 @@ code {
     padding-left: 8px;
     padding-right: 8px;
   }
+  /* Center Items */
+  .navbar ul {
+    margin: auto;
+  }
+  .navbar li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  h1 {
+    text-align: center;
+  }
+  .item {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .item .imageCap p{
+    text-align: center;
+  }
 }
 
 /* Mobile */
 @media (hover:none), (hover:on-demand) {
-  .subpage {
+  .item {
     width: 85%;
   }
   h1 {
@@ -309,10 +283,10 @@ code {
   h6 {
     font-size: 1.3rem;
   }
-  .subpage img {
+  .item img {
     max-width: 100%;
   }
-  .subpage .large img {
+  .item .large img {
     max-width: 100%;
   }
 }

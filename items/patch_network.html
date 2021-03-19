@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Maeve Stites</title>
@@ -7,9 +7,9 @@
   <meta name="description" content="Electrical and Computer Engineering Major's personal website, portfolio, link to resume, and contact information.">
   <meta name="author" content="Maeve Stites">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection">
-  <link type="text/css" rel="stylesheet" href="../css/style.css" media="screen,projection">
-  <link href="../css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css">
+  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="../css/style.css" media="screen,projection" />
+  <link href="../css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
@@ -23,46 +23,72 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'UA-106734336-2');
-</script>
-
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </script>
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-
-<body class="subpage">
-  <h1> Patch Panel Project </h1>
-	<hr>
-  <img src="../images/portfolio/patchpanelproject.jpg" alt="Cover photo"></p>
-  <div>
-    <h2>Overview</h2>
-    <p>I led a patch project install at the Burns &amp; McDonnell Networking, Integration, and Automation (NIA) lab to reduce errors and increasing efficency. I managed the patch panel project and installed the patch network. This resulted in a decrease in engineering hours for lab testing and a safer lab environment.</p>
+<body>
+  <div class="row">
+    <div id="profileColumn" class="col s12 l4 center">
+      <img id="profileImage" src="../images/profile.jpg" class="z-depth-3 circle responsive-img" />
+      <h3 id="heroName" class="center-align">Maeve Stites</h3>
+      <p id="description" class="center-align">Electrical and Computer Engineering major at <br> <a style="text-decoration: none;" href="http://olin.edu/" target="_blank">Olin College of Engineering</a><br>Pronouns: <a style="text-decoration: none;" href="https://www.mypronouns.org/they-them" target="_blank">they/them</a></p>
+      <div id="socialLinkSection">
+        <section class="tab">
+          <div id="socialLinkContent">
+            <!-- Social links dynamically generated from links.json -->
+          </div>
+        </section>
+      </div>
+      <a id="contactButton" class="waves-effect waves-grey btn-flat" href="mailto:maeve@mstites.com">Contact Me: maeve@mstites.com</a>
+    </div>
+    <div id="pageColumn" class="col s12 m12 l8">
+      <div class="navbar">
+        <ul>
+          <li><a href="../index.html">Portfolio</a></li>
+          <li><a href="../schedule.html">Schedule</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="item">
+          <h1> Patch Panel Project </h1>
+          <hr>
+          <img src="../images/portfolio/patchpanelproject.jpg" alt="Cover photo"></p>
+          <div>
+            <h2>Overview</h2>
+            <p>I led a patch project install at the Burns &amp; McDonnell Networking, Integration, and Automation (NIA) lab to reduce errors and increasing efficency. I managed the patch panel project and installed the patch network. This resulted in a decrease in engineering hours for lab testing and a safer lab environment.</p>
+          </div>
+          <div>
+            <h2>My Role</h2>
+            <ul>
+              <li>Project planning - I planned the timeline for this project and did the preliminary research into the feasibility of different options for the patch network.</li>
+              <li>Running team meetings - I had check-ins and planning meetings with the lab director, the NIA projects director, and other NIA engineers to give updates as well as take inputs and suggestions for the project.</li>
+              <li>Managing material lists - I sourced all of the materials for the patch network. This included patch panels, keystones, cabling, connectors, cable management accessories, cable runways, and tools.</li>
+              <li>Managing a $10,000 budget - Along with creating a materials list, I also worked to source items that would keep this project under budget.</li>
+              <li>Installation - I installed the whole patch network. This included installing patch panels, installing keystones, running cables, terminating connectors, cable management, and continuity testing.</li>
+            </ul>
+          </div>
+          <div class=imageCap>
+            <h2>Documentation and Details</h2>
+            <img src="../images/portfolio/items/patch_network/patch_cab.jpg" alt="Main Patch Cabinet Front">
+            <p>The main patch cabinet front. The GPS splitter and clock are at the bottom.</p>
+            <img src="../images/portfolio/items/patch_network/cable_manage1.jpg" alt="Inside of Main Patch Cabinet">
+            <p>The inside of the main patch cabinet. I managed all of the cables coming into this cabinet.</p>
+            <img src="../images/portfolio/items/patch_network/cable_manage2.jpg" alt="Inside of Main Patch Cabinet">
+            <p>The other side of the same patch cabinet.</p>
+            <img src="../images/portfolio/items/patch_network/rack_a.jpg" alt="One of the Rack Rows">
+            <p>One of three rows of racks in the lab. You can see the patch panels at the top of the racks (You can also see how messy the cable management has been up to this point).</p>
+            <img src="../images/portfolio/items/patch_network/rear_management.jpg" alt="Cable Management on Rear">
+            <p>Cable management on the back of some of the patch panels.</p>
+            <img src="../images/portfolio/items/patch_network/panel_rear.jpg" alt="Panel Rear">
+            <p>A close up of the rear of one of the patch panels.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div>
-    <h2>My Role</h2>
-    <ul>
-      <li>Project planning - I planned the timeline for this project and did the preliminary research into the feasibility of different options for the patch network.</li>
-      <li>Running team meetings - I had check-ins and planning meetings with the lab director, the NIA projects director, and other NIA engineers to give updates as well as take inputs and suggestions for the project.</li>
-      <li>Managing material lists - I sourced all of the materials for the patch network. This included patch panels, keystones, cabling, connectors, cable management accessories, cable runways, and tools.</li>
-      <li>Managing a $10,000 budget - Along with creating a materials list, I also worked to source items that would keep this project under budget.</li>
-      <li>Installation - I installed the whole patch network. This included installing patch panels, installing keystones, running cables, terminating connectors, cable management, and continuity testing.</li>
-    </ul>
-  </div>
-  <div class=imageCap>
-    <h2>Documentation and Details</h2>
-    <img src="../images/portfolio/items/patch_network/patch_cab.jpg" alt="Main Patch Cabinet Front">
-    <p>The main patch cabinet front. The GPS splitter and clock are at the bottom.</p>
-    <img src="../images/portfolio/items/patch_network/cable_manage1.jpg" alt="Inside of Main Patch Cabinet">
-    <p>The inside of the main patch cabinet. I managed all of the cables coming into this cabinet.</p>
-    <img src="../images/portfolio/items/patch_network/cable_manage2.jpg" alt="Inside of Main Patch Cabinet">
-    <p>The other side of the same patch cabinet.</p>
-    <img src="../images/portfolio/items/patch_network/rack_a.jpg" alt="One of the Rack Rows">
-    <p>One of three rows of racks in the lab. You can see the patch panels at the top of the racks (You can also see how messy the cable management has been up to this point).</p>
-    <img src="../images/portfolio/items/patch_network/rear_management.jpg" alt="Cable Management on Rear">
-    <p>Cable management on the back of some of the patch panels.</p>
-    <img src="../images/portfolio/items/patch_network/panel_rear.jpg" alt="Panel Rear">
-    <p>A close up of the rear of one of the patch panels.</p>
-  </div>
-  <a href="../index.html">Return to my personal website and portfolio</a>
-</div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../js/materialize.min.js"></script>
+  <script type="text/javascript" src="../js/items.js"></script>
 </body>
 </html>
