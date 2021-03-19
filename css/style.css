@@ -88,6 +88,7 @@ code {
 
 /* Navbar */
 .navbar {
+  margin-left: 8px;
   padding-bottom: 2rem;
 }
 
@@ -173,10 +174,6 @@ code {
 
 #description {
   font-size: 1.3rem;
-}
-
-#pageTitle {
-  margin-left: 8px;
 }
 
 #pageColumn {
