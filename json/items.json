@@ -7,13 +7,6 @@
     "link_name": "More Info"
   },
   {
-    "name": "Create",
-    "description": "Who said engineers had to be all logic and no liminality?<br><br>I sometimes find it necessary to escape the technical swamp and dart into the artistic caverns of my brain. <i>Create</i> is a porthole into those realms. The site features works which draw heavily on my lived experiences as a lesbian, poly, non-binary, trans woman.<br><br>There’s a zines page which features collections of my poetry, short essays, and journals from different stages of my trans experiences.<br><br>I also maintain an extensive transgender and trans allyship resource list on the site.",
-    "image": "images/portfolio/create.jpg",
-    "link": "https://create.mstites.com/",
-    "link_name": "Create Website"
-  },
-  {
     "name": "Attractnid",
     "description": "Attractnid is a four legged robot which can scale metal surfaces. It relies on magnets to attach itself to surfaces. The robot uses feet with permanent magnetics to attach to surfaces. Servos on the top of the feet rotate a permanent magnet to cancel the magnetic fields to detach the leg, allowing another set of servos to rotate the legs. An accelerometer keeps track of the orientation of the robot, allowing the robot to move along any specified angle.<br><br>My key contributions to the team was software development, firmware development, and building the project website.",
     "image": "images/portfolio/attractnid.jpg",
@@ -21,18 +14,25 @@
     "link_name": "Project Website"
   },
   {
-    "name": "Vision Stand Cal",
+    "name": "Vision Stand Calibration",
     "description": "I developed software to calibrate the Vision Test Stands at the JDES (John Deere Electronic Solutions) plant. These testers verify the functionality of displays made for use in John Deere tractors and construction equipement. The calibration code I wrote will reduce the number of engineering hours to develop tests and reduce false failures on the manufacturing line. <br><br> I brought this problem from concept to finish. I packaged my finished software into reusable portions that allow other engineers to easily implement the calibration files into their own code. I also wroote a thorough document explaining not only the calibration files but how the vision testers work, as many engineers are less familiar with this technology.",
     "image": "images/portfolio/vision_stand.jpg",
     "link": "items/vision_stand.html",
     "link_name": "More Info"
   },
   {
-    "name": "Non-binary Life Stories",
-    "description": "During my internship with John Deere, I took on a number of Diversity & Inclusion Iniatives. The highlight of my summer was giving a presentation with over 200 attendees: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. <br><br>This presentation was centered around my story: my identity, my identity journey, and experience interacting with the world as a non-binary person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.",
-    "image": "images/portfolio/lifestories.jpg",
-    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6567873477775368192/",
-    "link_name": "LinkedIn Post"
+    "name": "Create",
+    "description": "Who said engineers had to be all logic and no liminality?<br><br>I sometimes find it necessary to escape the technical swamp and dart into the artistic caverns of my brain. <i>Create</i> is a porthole into those realms. The site features works which draw heavily on my lived experiences as a lesbian, poly, non-binary, trans woman.<br><br>There’s a zines page which features collections of my poetry, short essays, and journals from different stages of my trans experiences.<br><br>I also maintain an extensive transgender and trans allyship resource list on the site.",
+    "image": "images/portfolio/create.jpg",
+    "link": "https://create.mstites.com/",
+    "link_name": "Create Website"
+  },
+  {
+    "name": "Nancy Walker",
+    "description": "I worked on a team to help design the perfect walker for an older adult. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and feel safer than ever before.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner. This was an incredibly rewarding experience to be able to improve the life of someone.",
+    "image": "images/portfolio/walker.jpg",
+    "link": "items/walker.html",
+    "link_name": "More Info"
   },
   {
     "name": "Flag Quest",
@@ -49,17 +49,17 @@
     "link_name": "Project Website"
   },
   {
+    "name": "Non-binary Life Stories",
+    "description": "During my internship with John Deere, I took on a number of Diversity & Inclusion Iniatives. The highlight of my summer was giving a presentation with over 200 attendees: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. <br><br>This presentation was centered around my story: my identity, my identity journey, and experience interacting with the world as a non-binary person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.",
+    "image": "images/portfolio/lifestories.jpg",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6567873477775368192/",
+    "link_name": "LinkedIn Post"
+  },
+  {
     "name": "Patch Network",
     "description": "I designed and installed a patch network for use in a networking and automation lab. This project will save hundreds of engineering hours in the future and will make the lab a safer environment.<br><br>I was the point person on this project. I handled everything: project planning, running team meetings, scheduling, managing material lists, and managing a budget. In total, the project involved 21 separate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections.",
     "image": "images/portfolio/patchpanelproject.jpg",
     "link": "items/patch_network.html",
-    "link_name": "More Info"
-  },
-  {
-    "name": "Nancy Walker",
-    "description": "I worked on a team to help design the perfect walker for an older adult. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and feel safer than ever before.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner. This was an incredibly rewarding experience to be able to improve the life of someone.",
-    "image": "images/portfolio/walker.jpg",
-    "link": "items/walker.html",
     "link_name": "More Info"
   },
   {
