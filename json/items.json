@@ -49,11 +49,11 @@
     "link_name": "Project Website"
   },
   {
-    "name": "Non-binary Life Stories",
-    "description": "During my internship with John Deere, I took on a number of Diversity & Inclusion Iniatives. The highlight of my summer was giving a presentation with over 200 attendees: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. <br><br>This presentation was centered around my story: my identity, my identity journey, and experience interacting with the world as a non-binary person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.",
-    "image": "images/portfolio/lifestories.jpg",
-    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6567873477775368192/",
-    "link_name": "LinkedIn Post"
+    "name": "Laser Cut Comp. Case",
+    "description": "Spurred by frustrations with existing products on the market, I experimented with new designs for compact and portable computer cases. I tested a number of different designs which could in the future be developed into a more refined product.<br><br>The cases were made by laser cutting plywood. This method was chosen because it is a cheap and fast prototyping method.",
+    "image": "images/portfolio/case.jpg",
+    "link": "items/case.html",
+    "link_name": "More Info"
   },
   {
     "name": "Patch Network",
@@ -63,11 +63,11 @@
     "link_name": "More Info"
   },
   {
-    "name": "Laser Cut Comp. Case",
-    "description": "Spurred by frustrations with existing products on the market, I experimented with new designs for compact and portable computer cases. I tested a number of different designs which could in the future be developed into a more refined product.<br><br>The cases were made by laser cutting plywood. This method was chosen because it is a cheap and fast prototyping method.",
-    "image": "images/portfolio/case.jpg",
-    "link": "items/case.html",
-    "link_name": "More Info"
+    "name": "Non-binary Life Stories",
+    "description": "During my internship with John Deere, I took on a number of Diversity & Inclusion Iniatives. The highlight of my summer was giving a presentation with over 200 attendees: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. <br><br>This presentation was centered around my story: my identity, my identity journey, and experience interacting with the world as a non-binary person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.",
+    "image": "images/portfolio/lifestories.jpg",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6567873477775368192/",
+    "link_name": "LinkedIn Post"
   },
   {
     "name": "SIR Sleep Model",
