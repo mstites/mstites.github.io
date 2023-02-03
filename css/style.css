@@ -87,39 +87,36 @@ code {
 }
 
 /* Navbar */
-
+.navbar {
+  padding-bottom: 1rem;
+}
 .navbar ul {
   overflow: hidden;
   display: table;
 }
 
 .navbar li {
-  font-weight: 600;
   color: var(--main-txt-color);
-  margin-top: 15px;
   display: inline-block;
   padding-right: 4rem;
 }
 
 .navbar li a {
-  margin-top: 0px;
-  margin-bottom: -30px;
-  font-weight: 500;
   font-size: 2rem;
   text-decoration: none;
   font-weight: 300;
   color: var(--main-txt-color);
 }
 
-.navbar li a:hover:not(.active) {
-  font-weight: 500;
-}
-
 .navbar li a.active {
   font-weight: 500;
 }
 
-/* home (always center) */
+.navbar li a:hover {
+  font-weight: 600;
+}
+
+/* home (center) */
 #home ul {
   margin: auto;
 }
@@ -131,15 +128,14 @@ code {
 
 /* Social Links */
 #socialLinkSection {
-  margin-top: 3px;
-  margin-bottom: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   display: block;
   padding-right: 10px;
   padding-left: 10px;
 }
 
 #socialLinkContent {
-  padding-top: 10px;
   text-align: center;
 }
 
@@ -168,7 +164,7 @@ code {
   width: 175px;
   height: 175px;
   margin: auto;
-  margin-top: calc(10%);
+  margin-top: calc(5%);
 }
 
 /* The various Texts */
@@ -182,7 +178,7 @@ code {
 }
 
 #pageColumn {
-  padding: 24px;
+  padding: 15px;
 }
 
 /* Cards */
@@ -203,14 +199,11 @@ code {
 
 #contactButton {
   border: 2px solid var(--main-txt-color);
-  font-weight: 600;
+  font-weight: 500;
   color: var(--main-txt-color);
-  margin-top: 15px;
-}
-
-#contactButton p {
-  margin: 0px;
-  margin-top: -1px;
+  margin-top: 10px;
+  padding-bottom: 37px;
+  text-decoration: none; /* Remove link underline */
 }
 
 #contactButton:hover {
@@ -261,10 +254,6 @@ code {
   #pageColumn {
     padding-left: 8px;
     padding-right: 8px;
-  }
-
-  .navbar {
-    padding-bottom: 2rem;
   }
 
   .item .schedule p {
