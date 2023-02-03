@@ -232,7 +232,7 @@ code {
   #profileImage {
     height: 125px;
     width: 125px;
-    margin-top: calc(10%);
+    /* margin-top: calc(10%); */
   }
   .item .schedule p {
     font-size: 1.25rem;
@@ -241,9 +241,9 @@ code {
 
 /* Narrow window: Header on top */
 @media only screen and (max-width: 992px) {
-  #profileImage {
+  /* #profileImage {
     margin-top: calc(10%);
-  }
+  } */
   #pageTitle {
     text-align: center;
   }
