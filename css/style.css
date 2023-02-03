@@ -94,7 +94,6 @@ code {
 }
 
 .navbar li {
-  /* border: 2px solid black; */
   font-weight: 600;
   color: var(--main-txt-color);
   margin-top: 15px;
@@ -128,12 +127,6 @@ code {
 #home li {
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-#xai {
-  width: 100%;
-  border: none;
-  min-height: 808px;
 }
 
 /* Social Links */
