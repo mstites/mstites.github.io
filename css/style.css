@@ -7,7 +7,7 @@ body {
   background-color: #f5f6fa;
 }
 
-/* Text Sizes */
+/* Text Sizes & Styling */
 h1 {
   font-size: 2.3rem;
   font-weight: 700;
@@ -129,7 +129,6 @@ code {
 }
 
 /* Social Links */
-
 #socialLinkSection {
   margin-top: 3px;
   margin-bottom: 8px;
@@ -161,14 +160,13 @@ code {
   background-color: lightgrey;
 }
 
-
 /* Profile Image */
 
 #profileImage {
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   margin: auto;
-  margin-top: calc(25%);
+  margin-top: calc(10%);
 }
 
 /* The various Texts */
@@ -234,14 +232,14 @@ code {
   #profileImage {
     height: 125px;
     width: 125px;
-    margin-top: calc(30%);
+    margin-top: calc(10%);
   }
   .item .schedule p {
     font-size: 1.25rem;
   }
 }
 
-/* Header on top */
+/* Narrow window: Header on top */
 @media only screen and (max-width: 992px) {
   #profileImage {
     margin-top: calc(10%);
