@@ -68,11 +68,11 @@ code {
   width: auto;
 }
 
-.item .imageCap img{
+.item .imageCap img {
   padding-top: .5rem;
 }
 
-.item .large img{
+.item .large img {
   max-width: 100%;
   max-height: 70vh;
 }
@@ -87,9 +87,6 @@ code {
 }
 
 /* Navbar */
-#home {
-  margin-left: 8px;
-}
 
 .navbar ul {
   overflow: hidden;
@@ -99,7 +96,8 @@ code {
 .navbar li {
   /* border: 2px solid black; */
   font-weight: 600;
-  color: var(--main-txt-color);  margin-top: 15px;
+  color: var(--main-txt-color);
+  margin-top: 15px;
   display: inline-block;
   padding-right: 4rem;
 }
@@ -110,7 +108,7 @@ code {
   font-weight: 500;
   font-size: 2rem;
   text-decoration: none;
-  font-weight:300;
+  font-weight: 300;
   color: var(--main-txt-color);
 }
 
@@ -120,6 +118,16 @@ code {
 
 .navbar li a.active {
   font-weight: 500;
+}
+
+/* home (always center) */
+#home ul {
+  margin: auto;
+}
+
+#home li {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #xai {
@@ -142,7 +150,8 @@ code {
   text-align: center;
 }
 
-.links { /* Social media links */
+.links {
+  /* Social media links */
   margin: 0 20px 0 20px;
   display: inline-block;
   font-size: 16px;
@@ -184,7 +193,8 @@ code {
 }
 
 /* Cards */
-.card-main-image, .card-image {
+.card-main-image,
+.card-image {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
 }
@@ -201,7 +211,8 @@ code {
 #contactButton {
   border: 2px solid var(--main-txt-color);
   font-weight: 600;
-  color: var(--main-txt-color);  margin-top: 15px;
+  color: var(--main-txt-color);
+  margin-top: 15px;
 }
 
 #contactButton p {
@@ -220,20 +231,25 @@ code {
     font-size: 2rem;
     margin-bottom: -20px;
   }
+
   #categoryText {
     font-size: 1.2rem;
   }
+
   #heroName {
     font-size: 2.2rem;
   }
+
   #description {
     font-size: 1.2rem;
   }
+
   #profileImage {
     height: 125px;
     width: 125px;
     /* margin-top: calc(10%); */
   }
+
   .item .schedule p {
     font-size: 1.25rem;
   }
@@ -241,73 +257,91 @@ code {
 
 /* Narrow window: Header on top */
 @media only screen and (max-width: 992px) {
+
   /* #profileImage {
     margin-top: calc(10%);
   } */
   #pageTitle {
     text-align: center;
   }
+
   #pageColumn {
     padding-left: 8px;
     padding-right: 8px;
   }
+
   .navbar {
     padding-bottom: 2rem;
   }
+
   .item .schedule p {
     padding-left: 0px;
     padding-top: 0rem;
     padding-bottom: .2hrem;
     font-size: 1.2rem;
   }
+
   /* Center Items */
   .navbar ul {
     margin: auto;
   }
+
   .navbar li {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
   .navbar li a {
     font-size: 1.7rem;
   }
+
   h1 {
     text-align: center;
   }
+
   .item {
     margin-left: auto;
     margin-right: auto;
     display: block;
     padding-right: 0rem;
   }
+
   .item img {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  .item .imageCap p{
+
+  .item .imageCap p {
     text-align: center;
   }
 }
 
 /* Mobile */
-@media (hover:none), (hover:on-demand) {
+@media (hover:none),
+(hover:on-demand) {
   .item {
     width: 85%;
   }
+
   .item img {
     max-width: 100%;
   }
+
   .item .large img {
     max-width: 100%;
   }
+
   .navbar li {
-    padding-left: 1rem;;
+    padding-left: 1rem;
+    ;
     padding-right: 1rem;
   }
+
   .navbar li a {
     font-size: 1.5rem;
   }
+
   #contactButton {
     font-size: .9rem;
     height: 38px;
