@@ -79,33 +79,6 @@ code {
   font-style: italic;
 }
 
-/* Navbar */
-.navbar ul {
-  overflow: hidden;
-  display: table;
-}
-
-.navbar li {
-  color: var(--main-txt-color);
-  display: inline-block;
-  padding-right: 4rem;
-}
-
-.navbar li a {
-  font-size: 1.5rem;
-  text-decoration: none;
-  font-weight: 300;
-  color: var(--main-txt-color);
-}
-
-.navbar li a.active {
-  font-weight: 500;
-}
-
-.navbar li a:hover {
-  font-weight: 600;
-}
-
 /* home (center) */
 #home ul {
   margin: auto;
@@ -299,20 +272,6 @@ code {
     font-size: 1.2rem;
   }
 
-  /* Center Items */
-  .navbar ul {
-    margin: auto;
-  }
-
-  .navbar li {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
-  .navbar li a {
-    font-size: 1rem;
-  }
-
   h1 {
     text-align: center;
   }
@@ -348,16 +307,6 @@ code {
 
   .item .large img {
     max-width: 100%;
-  }
-
-  .navbar li {
-    padding-left: 1rem;
-    ;
-    padding-right: 1rem;
-  }
-
-  .navbar li a {
-    font-size: 1.5rem;
   }
 
   #contactButton {
