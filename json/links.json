@@ -1,5 +1,10 @@
 [
-
+    {
+        "name": "Resume",
+        "color": "red",
+        "icon": "images/icons/Resume_Icon.jpg",
+        "url": "https://docs.google.com/document/d/17LiZ6YUko6FkbWz4yPKOUvtIESmLgm7nZcnUHDcN3E4/edit?usp=sharing"
+	},
     {
         "name": "Github",
         "color": "red",
@@ -11,11 +16,5 @@
         "color": "red",
         "icon": "images/icons/LinkedIn_Icon.jpg",
         "url": "https://www.linkedin.com/in/maevestites/"
-    },
-    {
-        "name": "Resume",
-        "color": "red",
-        "icon": "images/icons/Resume_Icon.jpg",
-        "url": "https://docs.google.com/document/d/17LiZ6YUko6FkbWz4yPKOUvtIESmLgm7nZcnUHDcN3E4/edit?usp=sharing"
-	}
+    }
 ]
