@@ -89,5 +89,12 @@
     "image": "images/portfolio/bigjake.jpg",
     "link": "items/robotics.html",
     "link_name": "More Info"
+  },
+  {
+    "name": "Grama Python Package Development",
+    "description": "I worked with <a href='https://www.zdelrosario.com/'>Professor Zach del Rosario</a> of Olin College to develop and maintain an open source Python package designed for use in Uncertainty Quantification applications, Grama. Grama features modeling and data manipulation tools to enable engineers to facilitate rapid model analysis, communication of results, and analysis of systems with uncertainty (e.g. in material properties such as strength and elasticity).<br><br>My contributions included:<ul><li>Re-architecting error handling to improve maintainability of the code base.</li><li>Improving the quality of error messages to make Grama’s tools more accessible by modelling the Tidyverse error design considerations (concise descriptions and a hint to common issues, aka human readable!).</li><li>Increasing test coverage.</li><li>Expanding documentation for the existing code base, including more narrowly defining known issues to make contributing more accessible.</li><li>Instructing students in an engineering professional development program (using Grama) on how to use data science tools in their work.</li><li>Collaborating with a team of researchers to study how engineers approach variability and how to better educate engineers to account for material variability in their problem solving.</li></ul><br>Image of Grama models <a href='https://github.com/zdelrosario/evc-course/blob/main/exercises/e-grama01-basics-master.ipynb'>credited to Zach del Rosario</a>.",
+    "image": "images/portfolio/grama.jpg",
+    "link": "https://github.com/zdelrosario/py_grama/pull/195",
+    "link_name": "Pull Request Example"
   }
 ]
