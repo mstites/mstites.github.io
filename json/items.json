@@ -82,5 +82,12 @@
     "image": "images/portfolio/macropad.jpg",
     "link": "items/macropad.html",
     "link_name": "Build Log"
+  },
+  {
+    "name": "Robotics Captain & Mentorship",
+    "description": "I led a team of 55 students to create a competition ready robot in six weeks for the 2018 FIRST Robotics Competition. My primary responsibilities included delegating tasks, managing the project timeline, coaching the drive team, and educating junior members on the team on technical skills necessary to build robots. In total, I managed the building of three different robots to end up with the final design (pictured) - which went on to be undefeated in qualifications and ranked number one at the Iowa Regional out of 61 robots.<br><br>Post graduation, I have returned to the team as a technical mentor. I provide guidance and education for the electrical and programming portions of the robot. I also help with the “rapid prototyping” stages of the season, where I encourage students to test ideas quickly and use failure as an opportunity to iterate on otheir designs.<br><br>I believe it is important to give back through volunteer efforts. Robotics helped me realize my passion for Electrical & Computer Engineering, and I want to give students the same opportunities that were given to me.",
+    "image": "images/portfolio/bigjake.jpg",
+    "link": "items/robotics.html",
+    "link_name": "More Info"
   }
 ]
