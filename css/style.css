@@ -168,7 +168,11 @@ code {
   background-color: lightgrey;
 }
 
-/* Profile Image */
+/* Profile */
+.profileColumn a {
+  text-decoration: none;
+}
+
 #profileImage {
   width: 175px;
   height: 175px;

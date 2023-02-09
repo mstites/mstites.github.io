@@ -1,58 +1,9 @@
 [
   {
-    "name": "Wax Melter",
-    "description": "I designed and programmed a board to heat wax (used in candle making) to a specified temperature based on user input. I came up with the problem statement, wrote the proposal,  designed the schematic, layed out the PCB, wrote the C code, tested, and refined the system. <br><br>This project was chosen because I run a candle business and wanted to optimize my workflow. The system is controllable via an OLED with buttons interface and a self hosted web interface. This dual UI approach allows monitoring next to the unit or more remotely.<br><br>The board heats the wax via a hot plate it controls via flipping a relay outlet. The wax itself is in a double broiler ontop of the hot plate.",
-    "image": "images/portfolio/wax_melter.jpg",
-    "link": "items/wax_melter.html",
-    "link_name": "More Info"
-  },
-  {
-    "name": "Attractnid",
-    "description": "Attractnid is a four legged robot which can scale metal surfaces. It relies on magnets to attach itself to surfaces. The robot uses feet with permanent magnetics to attach to surfaces. Servos on the top of the feet rotate a permanent magnet to cancel the magnetic fields to detach the leg, allowing another set of servos to rotate the legs. An accelerometer keeps track of the orientation of the robot, allowing the robot to move along any specified angle.<br><br>My key contributions to the team was software development, firmware development, and building the project website.",
-    "image": "images/portfolio/attractnid.jpg",
-    "link": "https://www.mstites.com/attractnid/",
-    "link_name": "Project Website"
-  },
-  {
     "name": "Vision Stand Calibration",
     "description": "I developed software to calibrate the Vision Test Stands at the JDES (John Deere Electronic Solutions) plant. These testers verify the functionality of displays made for use in John Deere tractors and construction equipement. The calibration code I wrote will reduce the number of engineering hours to develop tests and reduce false failures on the manufacturing line. <br><br> I brought this problem from concept to finish. I packaged my finished software into reusable portions that allow other engineers to easily implement the calibration files into their own code. I also wroote a thorough document explaining not only the calibration files but how the vision testers work, as many engineers are less familiar with this technology.",
     "image": "images/portfolio/vision_stand.jpg",
     "link": "items/vision_stand.html",
-    "link_name": "More Info"
-  },
-  {
-    "name": "Create",
-    "description": "Who said engineers had to be all logic and no liminality?<br><br>I sometimes find it necessary to escape the technical swamp and dart into the artistic caverns of my brain. <i>Create</i> is a porthole into those realms. The site features works which draw heavily on my lived experiences as a lesbian, poly, non-binary, trans woman.<br><br>There’s a zines page which features collections of my poetry, short essays, and journals from different stages of my trans experiences.<br><br>I also maintain an extensive transgender and trans allyship resource list on the site.",
-    "image": "images/portfolio/create.jpg",
-    "link": "https://create.mstites.com/",
-    "link_name": "Create Website"
-  },
-  {
-    "name": "Nancy Walker",
-    "description": "I worked on a team to help design the perfect walker for an older adult. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and feel safer than ever before.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner. This was an incredibly rewarding experience to be able to improve the life of someone.",
-    "image": "images/portfolio/walker.jpg",
-    "link": "items/walker.html",
-    "link_name": "More Info"
-  },
-  {
-    "name": "Flag Quest",
-    "description": "I worked with a team to develop Flag Quest. Flag Quest is a rogue like game created to spread awareness of LGBTQ+ identities by integrating the elements of LGBTQ+ flags into fun puzzles. <br><br> The player navigates obstacles to collect colors of a certain LGBTQ+ Flag. When the flag is complete, an educational book is displayed. I worked on a variety of tasks including: the educational end screen books, the flashlight module, controller module, code organization, and the project website.",
-    "image": "images/portfolio/flagquest.jpg",
-    "link": "https://sd19spring.github.io/FlagQuest/",
-    "link_name": "Project Website"
-  },
-  {
-    "name": "SVD Zines",
-    "description": "I worked with a partner to develop a pair of educational zines explaining basic linearity concepts and the Singular Value Decomposition. These zines are aimed at high school students with an algebra understanding. They are meant to get students excited about math by giving purpose to the things they are learning.  <br><br>I created the zine format, wrote about the basics of Linear Algebra (Matrices, Vectors, Eigenvalues, Eigenvectors), explained how SVD works on an image, and developed the code examples (MATLAB, Python, and WolframAlpha).",
-    "image": "images/portfolio/svd_zine.jpg",
-    "link": "https://www.mstites.com/Linearity-Zine/",
-    "link_name": "Project Website"
-  },
-  {
-    "name": "Laser Cut Comp. Case",
-    "description": "Spurred by frustrations with existing products on the market, I experimented with new designs for compact and portable computer cases. I tested a number of different designs which could in the future be developed into a more refined product.<br><br>The cases were made by laser cutting plywood. This method was chosen because it is a cheap and fast prototyping method.",
-    "image": "images/portfolio/case.jpg",
-    "link": "items/case.html",
     "link_name": "More Info"
   },
   {
@@ -63,11 +14,46 @@
     "link_name": "More Info"
   },
   {
-    "name": "Global Inclusion Presentation",
-    "description": "I took on a number of Diversity & Inclusion initiatives while working for John Deere as an engineering intern. The highlight of my summer was giving an inclusion presentation: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. Over 200 employees attended the event.<br><br>The presentation was centered around my experience in the world and the workplace as a trans person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.<br><br>",
-    "image": "images/portfolio/lifestories.jpg",
-    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6567873477775368192/",
-    "link_name": "LinkedIn Post"
+    "name": "Grama Python Package Development",
+    "description": "I worked with <a href='https://www.zdelrosario.com/'>Professor Zach del Rosario</a> of Olin College to develop and maintain an open source Python package designed for use in Uncertainty Quantification applications, Grama. Grama features modeling and data manipulation tools to enable engineers to facilitate rapid model analysis, communication of results, and analysis of systems with uncertainty (e.g. in material properties such as strength and elasticity).<br><br>My contributions included:<ul><li>Re-architecting error handling to improve maintainability of the code base.</li><li>Improving the quality of error messages to make Grama’s tools more accessible by modelling the Tidyverse error design considerations (concise descriptions and a hint to common issues, aka human readable!).</li><li>Increasing test coverage.</li><li>Expanding documentation for the existing code base, including more narrowly defining known issues to make contributing more accessible.</li><li>Instructing students in an engineering professional development program (using Grama) on how to use data science tools in their work.</li><li>Collaborating with a team of researchers to study how engineers approach variability and how to better educate engineers to account for material variability in their problem solving.</li></ul><br>Image of Grama models <a href='https://github.com/zdelrosario/evc-course/blob/main/exercises/e-grama01-basics-master.ipynb'>credited to Zach del Rosario</a>.",
+    "image": "images/portfolio/grama.jpg",
+    "link": "https://github.com/zdelrosario/py_grama/pull/195",
+    "link_name": "Pull Request Example"
+  },
+  {
+    "name": "Robotics Captain & Mentorship",
+    "description": "I led a team of 55 students to create a competition ready robot in six weeks for the 2018 FIRST Robotics Competition. My primary responsibilities included delegating tasks, managing the project timeline, coaching the drive team, and educating junior members on the team on technical skills necessary to build robots. In total, I managed the building of three different robots to end up with the final design (pictured) - which went on to be undefeated in qualifications and ranked number one at the Iowa Regional out of 61 robots.<br><br>Post graduation, I have returned to the team as a technical mentor. I provide guidance and education for the electrical and programming portions of the robot. I also help with the “rapid prototyping” stages of the season, where I encourage students to test ideas quickly and use failure as an opportunity to iterate on otheir designs.<br><br>I believe it is important to give back through volunteer efforts. Robotics helped me realize my passion for Electrical & Computer Engineering, and I want to give students the same opportunities that were given to me.",
+    "image": "images/portfolio/bigjake.jpg",
+    "link": "items/robotics.html",
+    "link_name": "More Info"
+  },
+  {
+    "name": "Mobility Networks Equity Analysis",
+    "description": "I worked on a team of researchers to analyze the equity of scooter share services in Providence (RI) to inform city policy decisions. We used scooter data from the private providers to analyze the availability and impact of these services, particularly how it may pertain to equitable access regardless of income level or location in the city. The outcome of this project included a number of data driven reports and a web application that enables city workers to perform analysis on future data.<br><br><b>I directed the main data analysis model in the project including scaffolding code architecture, manipulation of census data, coordinating meetings, and communicating across an international programming team.</b> I also co-authored a paper about the city’s underserved communities inequitable dynamic with scooter share services that was submitted to the city and the Clare Boothe Luce scholarship program.<br><br>I gained experience with the R programming language and the Tidyverse packages (widely used data science tools).",
+    "image": "images/portfolio/providence.jpg",
+    "link": "items/Equity_Report_Paper.pdf",
+    "link_name": "Paper"
+  },
+  {
+    "name": "Wax Melter Control Board",
+    "description": "I designed and programmed a board to heat wax (used in candle making) to a specified temperature based on user input. I came up with the problem statement, wrote the proposal,  designed the schematic, layed out the PCB, wrote the C code, tested, and refined the system. <br><br>This project was chosen because I run a candle business and wanted to optimize my workflow. The system is controllable via an OLED with buttons interface and a self hosted web interface. This dual UI approach allows monitoring next to the unit or more remotely.<br><br>The board heats the wax via a hot plate it controls via flipping a relay outlet. The wax itself is in a double broiler ontop of the hot plate.",
+    "image": "images/portfolio/wax_melter.jpg",
+    "link": "items/wax_melter.html",
+    "link_name": "More Info"
+  },
+  {
+    "name": "Attractnid - Wall Climbing Robot",
+    "description": "Attractnid is a four legged robot which can scale metal surfaces. It relies on magnets to attach itself to surfaces. The robot uses feet with permanent magnetics to attach to surfaces. Servos on the top of the feet rotate a permanent magnet to cancel the magnetic fields to detach the leg, allowing another set of servos to rotate the legs. An accelerometer keeps track of the orientation of the robot, allowing the robot to move along any specified angle.<br><br>My key contributions to the team was software development, firmware development, and building the project website.",
+    "image": "images/portfolio/attractnid.jpg",
+    "link": "https://www.mstites.com/attractnid/",
+    "link_name": "Project Website"
+  },
+  {
+    "name": "Trandle Boutique Business",
+    "description": "During the COVID-19 lockdown period (2020-2021) I gained valuable business, customer service, and entrepreneurship skills by founding and running my own candle shop. My shop specialized in producing affordable and eco-friendly LGBTQ+ pride flag candles. I generated over 500 sales and over $12,000 in revenue in my one year of operation. I advertised across multiple platforms including Facebook, Instagram, Twitter, and Etsy to maximize interactions and CTR (click through rate).<br><br>I developed relationships with local LGBTQ+ non-profits to provide products for their programming. I also had the honor of providing the over 50 candles for the University of Chicago’s Trans Day of Remembrance Event.",
+    "image": "images/portfolio/candle.jpg",
+    "link": "items/candles.html",
+    "link_name": "More Info"
   },
   {
     "name": "SIR Sleep Model",
@@ -75,6 +61,55 @@
     "image": "images/portfolio/modsim.jpg",
     "link": "https://www.mstites.com/SIR-Model/",
     "link_name": "Computational Essay"
+  },
+  {
+    "name": "Flag Quest Video Game",
+    "description": "I worked with a team to develop Flag Quest. Flag Quest is a rogue like game created to spread awareness of LGBTQ+ identities by integrating the elements of LGBTQ+ flags into fun puzzles. <br><br> The player navigates obstacles to collect colors of a certain LGBTQ+ Flag. When the flag is complete, an educational book is displayed. I worked on a variety of tasks including: the educational end screen books, the flashlight module, controller module, code organization, and the project website.",
+    "image": "images/portfolio/flagquest.jpg",
+    "link": "https://sd19spring.github.io/FlagQuest/",
+    "link_name": "Project Website"
+  },
+  {
+    "name": "Laser Cut Comp. Case",
+    "description": "Spurred by frustrations with existing products on the market, I experimented with new designs for compact and portable computer cases. I tested a number of different designs which could in the future be developed into a more refined product.<br><br>The cases were made by laser cutting plywood. This method was chosen because it is a cheap and fast prototyping method.",
+    "image": "images/portfolio/case.jpg",
+    "link": "items/case.html",
+    "link_name": "More Info"
+  },
+  {
+    "name": "Create",
+    "description": "Who said engineers had to be all logic and no liminality?<br><br>I sometimes find it necessary to escape the technical swamp and dart into the artistic caverns of my brain. <i>Create</i> is a porthole into those realms. The site features works which draw heavily on my lived experiences as a lesbian, poly, non-binary, trans woman.<br><br>There’s a zines page which features collections of my poetry, short essays, and journals from different stages of my trans experiences.<br><br>I also maintain an extensive transgender and trans allyship resource list on the site.",
+    "image": "images/portfolio/create.jpg",
+    "link": "https://create.mstites.com/",
+    "link_name": "Create Website"
+  },
+  {
+    "name": "Global Inclusion Presentation",
+    "description": "I took on a number of Diversity & Inclusion initiatives while working for John Deere as an engineering intern. The highlight of my summer was giving an inclusion presentation: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. Over 200 employees attended the event.<br><br>The presentation was centered around my experience in the world and the workplace as a trans person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.<br><br>",
+    "image": "images/portfolio/lifestories.jpg",
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6567873477775368192/",
+    "link_name": "LinkedIn Post"
+  },
+  {
+    "name": "Goose Bot",
+    "description": "A telegram bot I built to spread positivity and support during the COVID-19 pandemic. The bot sends messages, reminders, images, honks, and more - all with a goose focus. I wrote it in Python with a focus on code accessibility and maintainability. <br><br>The bot code is multithreaded to handle multiple users inputs and outputs, internal bot command flow/data shuffling, and administrative commands.",
+    "image": "images/portfolio/vision_stand.jpg",
+    "link": "https://github.com/mstites/telegramGoose",
+    "link_name": "GitHub Repo"
+  },
+  {
+    "name": "SVD Zines",
+    "description": "I worked with a partner to develop a pair of educational zines explaining basic linearity concepts and the Singular Value Decomposition. These zines are aimed at high school students with an algebra understanding. They are meant to get students excited about math by giving purpose to the things they are learning.  <br><br>I created the zine format, wrote about the basics of Linear Algebra (Matrices, Vectors, Eigenvalues, Eigenvectors), explained how SVD works on an image, and developed the code examples (MATLAB, Python, and WolframAlpha).",
+    "image": "images/portfolio/svd_zine.jpg",
+    "link": "https://www.mstites.com/Linearity-Zine/",
+    "link_name": "Project Website"
+  },
+  {
+    "name": "Nancy Walker",
+    "description": "I worked on a team to help design the perfect walker for an older adult. Our work had a big impact on her life, allowing her to be more mobile, comfortable, and feel safer than ever before.<br><br>Our team ran through numerous design sessions, experiments, and prototypes to find what made the best walker for our community partner. This was an incredibly rewarding experience to be able to improve the life of someone.",
+    "image": "images/portfolio/walker.jpg",
+    "link": "items/walker.html",
+    "link_name": "More Info"
   },
   {
     "name": "Macropad",
