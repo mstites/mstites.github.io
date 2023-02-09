@@ -31,8 +31,8 @@
     "name": "Shared Mobility Networks Equity Analysis",
     "description": "I worked on a team of researchers to analyze the equity of scooter share services in Providence (RI) to inform city policy decisions. We used scooter data from the private providers to analyze the availability and impact of these services, particularly how it may pertain to equitable access regardless of income level or location in the city. The outcome of this project included a number of data driven reports and a web application that enables city workers to perform analysis on future data.<br><br><b>I directed the main data analysis model in the project including scaffolding code architecture, manipulation of census data, coordinating meetings, and communicating across an international programming team.</b> I also co-authored a paper about the city’s underserved communities inequitable dynamic with scooter share services that was submitted to the city and the Clare Boothe Luce scholarship program.<br><br>I gained experience with the R programming language and the Tidyverse packages (widely used data science tools).",
     "image": "images/portfolio/providence.jpg",
-    "link": "items/equity_analysis.html",
-    "link_name": "More Info"
+    "link": "items/Equity_Report_Paper.pdf",
+    "link_name": "Paper"
   },
   {
     "name": "Wax Melter Control Board",
