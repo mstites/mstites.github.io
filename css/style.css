@@ -194,6 +194,14 @@ code {
   padding: 15px;
 }
 
+#p404 h1 {
+  font-size: 6rem;
+}
+#p404 p {
+  font-size: 1.25rem;
+  padding-bottom: .15rem;
+}
+
 /* Cards */
 .card-main-image,
 .card-image {
