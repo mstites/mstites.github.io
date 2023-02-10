@@ -1,16 +1,9 @@
 [
   {
     "name": "Vision Stand Calibration",
-    "description": "I developed software to calibrate the Vision Test Stands at the JDES (John Deere Electronic Solutions) plant. These testers verify the functionality of displays made for use in John Deere tractors and construction equipement. The calibration code I wrote will reduce the number of engineering hours to develop tests and reduce false failures on the manufacturing line. <br><br> I brought this problem from concept to finish. I packaged my finished software into reusable portions that allow other engineers to easily implement the calibration files into their own code. I wrote documentation explaining how the vision test stands work and how to implement my calibration utility in their code.",
+    "description": "I developed software to calibrate the Vision Test Stands at the John Deere Electronic Solutions (JDES) plant. These test stands verify the functionality of displays made for use in John Deere tractors and construction equipement.<br><br>I developed software to generate calibration information specific to each camera. I also built functions that enable other engineers at JDES to use the calibrated values for the vision tests they develop. My work will reduce the number of engineering hours required to build tests and reduce false failures on the manufacturing line.",
     "image": "images/portfolio/vision_stand.jpg",
     "link": "items/vision_stand.html",
-    "link_name": "More Info"
-  },
-  {
-    "name": "Patch Network",
-    "description": "I designed and installed a patch network for use in a networking and automation lab. This project will save hundreds of engineering hours in the future and will make the lab a safer environment.<br><br>I was the point person on this project. I handled everything: project planning, running team meetings, scheduling, managing material lists, and managing a budget. In total, the project involved 21 separate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections.",
-    "image": "images/portfolio/patchpanelproject.jpg",
-    "link": "items/patch_network.html",
     "link_name": "More Info"
   },
   {
@@ -21,6 +14,13 @@
     "link_name": "Pull Request Example"
   },
   {
+    "name": "Patch Network",
+    "description": "I designed and installed a patch network for use in the networking and automation lab at Burns & McDonnell. This project significantly reduces the complexity and time requirements of running and troubleshooting connections. This will save hundreds of engineering hours and make the lab a safer environment.<br><br>I was the point person on this project. I handled everything: project planning, running team meetings, scheduling, managing material lists, and managing a budget. In total, the project involved 21 separate racks which had Ethernet, single-mode fiber, 62.5µm multi-mode fiber, GPS signal, and IRIG clock signal connections.",
+    "image": "images/portfolio/patchpanelproject.jpg",
+    "link": "items/patch_network.html",
+    "link_name": "More Info"
+  },
+  {
     "name": "Robotics Captain & Mentorship",
     "description": "I led a team of 55 students to create a competition ready robot in six weeks for the 2018 FIRST Robotics Competition. My primary responsibilities included delegating tasks, managing the project timeline, coaching the drive team, and educating junior members on the team on technical skills necessary to build robots. In total, I managed the building of three different robots to end up with the final design (pictured) - which went on to be undefeated in qualifications and ranked number one at the Iowa Regional out of 61 robots.<br><br>Post graduation, I have returned to the team as a technical mentor. I provide guidance and education for the electrical and programming portions of the robot. I also help with the “rapid prototyping” stages of the season, where I encourage students to test ideas quickly and use failure as an opportunity to iterate on otheir designs.<br><br>I believe it is important to give back through volunteer efforts. Robotics helped me realize my passion for Electrical & Computer Engineering, and I want to give students the same opportunities that were given to me.",
     "image": "images/portfolio/bigjake.jpg",
@@ -29,14 +29,14 @@
   },
   {
     "name": "Mobility Network Equity Analysis",
-    "description": "I worked on a team of researchers to analyze the equity of scooter share services in Providence (RI) to inform city policy decisions. We used scooter data from the private providers to analyze the availability and impact of these services, particularly how it may pertain to equitable access regardless of income level or location in the city. The outcome of this project included a number of data driven reports and a web application that enables city workers to perform analysis on future data.<br><br><b>I directed the main data analysis model in the project including scaffolding code architecture, manipulation of census data, coordinating meetings, and communicating across an international programming team.</b> I also co-authored a paper about the city’s underserved communities inequitable dynamic with scooter share services that was submitted to the city and the Clare Boothe Luce scholarship program.<br><br>I gained experience with the R programming language and the Tidyverse packages (widely used data science tools).",
+    "description": "I worked on a team of researchers to analyze the equity of scooter share services in Providence (RI) to inform city policy decisions. I analyzed the availability and impact of scooter share services in Providence, particularly how it may pertain to equitable access regardless of income level or location in the city. The outcome of this project included a number of data driven reports and a web application that enables city workers to perform analysis on future data.<br><br><b>I directed the main data analysis model in the project including scaffolding code architecture, manipulation of census data, coordinating meetings, and communicating across an international programming team.</b> I also co-authored a paper about the city’s underserved communities inequitable dynamic with scooter share services that was submitted to the city and the Clare Boothe Luce scholarship program.<br><br>I gained experience with the R programming language and the Tidyverse packages (widely used data science tools).",
     "image": "images/portfolio/providence.jpg",
     "link": "items/Equity_Report_Paper.pdf",
     "link_name": "Paper"
   },
   {
     "name": "Wax Melter Control Board",
-    "description": "I designed and programmed a board to heat wax (used in candle making) to a specified temperature based on user input. I came up with the problem statement, wrote the proposal,  designed the schematic, layed out the PCB, wrote the C code, tested, and refined the system. <br><br>This project was chosen because I run a candle business and wanted to optimize my workflow. The system is controllable via an OLED with buttons interface and a self hosted web interface. This dual UI approach allows monitoring next to the unit or more remotely.<br><br>The board heats the wax via a hot plate it controls via flipping a relay outlet. The wax itself is in a double broiler ontop of the hot plate.",
+    "description": "I designed and programmed a board to heat wax (used in candle making) to a specified temperature based on user input. I came up with the problem statement, wrote the proposal,  designed the schematic, layed out the PCB, wrote the C code, tested, and refined the system. <br><br>The system is controllable via an OLED with buttons interface and a self hosted web interface. This dual UI approach allows monitoring next to the unit or more remotely.<br><br>The board heats the wax via a hot plate it controls via flipping a relay outlet. The wax itself is in a double broiler ontop of the hot plate.",
     "image": "images/portfolio/wax_melter.jpg",
     "link": "items/wax_melter.html",
     "link_name": "More Info"
@@ -57,14 +57,14 @@
   },
   {
     "name": "Flag Quest Video Game",
-    "description": "I worked with a team to develop Flag Quest. Flag Quest is a rogue like game created to spread awareness of LGBTQ+ identities by integrating the elements of LGBTQ+ flags into fun puzzles. <br><br> The player navigates obstacles to collect colors of a certain LGBTQ+ Flag. When the flag is complete, an educational book is displayed. I worked on a variety of tasks including: the educational end screen books, the flashlight module, controller module, code organization, and the project website.",
+    "description": "Flag Quest is a rogue like game created to spread awareness of LGBTQ+ identities by integrating the elements of LGBTQ+ flags into fun puzzles. <br><br> The player navigates obstacles to collect colors of a certain LGBTQ+ Flag. When the flag is complete, an educational book is displayed.<br><br>My contributions included:<ul><li>Developing the fashlight module and controller module, two core components of the game code.</li><li>Taking lead on code architecture, layout, and documentation methods (e.g. docstrings, inline comments).<li>Researching materials for and writing the educational virtual books.</li><li>Developing the project website.</li></ul>",
     "image": "images/portfolio/flagquest.jpg",
     "link": "https://sd19spring.github.io/FlagQuest/",
     "link_name": "Project Website"
   },
   {
     "name": "SIR Sleep Model",
-    "description": "Pictured is a prediction of an outbreak on Olin's campus (left). The green line represents the recovered population, the orange line represents the susceptible population, and the blue line represents the infected population. The result was generated from our model using sleep data from an Olin student survey.  <br><br>On the right is a simulated disease with all students getting an extra hour of sleep. I worked with a partner to study the correlation between sleep and the spread of disease. We created a SIR (Susceptible, Infected, and Recovered) model to simulate the spread of disease through a population sample. We used Python to build this model.",
+    "description": "Pictured is a prediction of an outbreak on Olin's campus (left). The green line represents the recovered population, the orange line represents the susceptible population, and the blue line represents the infected population. The result was generated from our model using sleep data from an Olin student survey. On the right is a simulated disease with all students getting an extra hour of sleep.<br><br>I worked with a partner to study the correlation between sleep and the spread of disease. We created a SIR (Susceptible, Infected, and Recovered) model in Python to simulate the spread of disease through a population sample.",
     "image": "images/portfolio/modsim.jpg",
     "link": "https://www.mstites.com/SIR-Model/",
     "link_name": "Computational Essay"
@@ -78,24 +78,17 @@
   },
   {
     "name": "Create",
-    "description": "Who said engineers had to be all logic and no liminality?<br><br>I sometimes find it necessary to escape the technical swamp and dart into the artistic caverns of my brain. <i>Create</i> is a porthole into those realms. The site features works which draw heavily on my lived experiences as a lesbian, poly, non-binary, trans woman.<br><br>There’s a zines page which features collections of my poetry, short essays, and journals from different stages of my trans experiences.<br><br>I also maintain an extensive transgender and trans allyship resource list on the site.",
+    "description": "Who said engineers had to be all logic and no liminality?<br><br>I sometimes find it necessary to escape the technical swamp and dart into the artistic caverns of my brain. <i>Create</i> is a porthole into those realms. The site features some of my creative works, namely zines, and compiled resource lists centered around LGBTQ+ life and allyship.",
     "image": "images/portfolio/create.jpg",
     "link": "https://create.mstites.com/",
     "link_name": "Create Website"
   },
   {
     "name": "Global Inclusion Presentation",
-    "description": "I took on a number of Diversity & Inclusion initiatives while working for John Deere as an engineering intern. The highlight of my summer was giving an inclusion presentation: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. Over 200 employees attended the event.<br><br>The presentation was centered around my experience in the world and the workplace as a trans person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.<br><br>",
+    "description": "I embarked on a number of Diversity & Inclusion initiatives while working for John Deere as an engineering intern. The highlight of my summer was giving an inclusion presentation sponsored by international employee resource group: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. Over 200 employees were in attendance, with many more watching the recording.<br><br>The presentation was centered around my experience in the world and the workplace as a trans person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.<br><br>",
     "image": "images/portfolio/lifestories.jpg",
     "link": "https://www.linkedin.com/feed/update/urn:li:activity:6567873477775368192/",
     "link_name": "LinkedIn Post"
-  },
-  {
-    "name": "Goose Bot",
-    "description": "A telegram bot I built to spread positivity and support during the COVID-19 pandemic. The bot sends messages, reminders, images, honks, and more - all with a goose focus. I wrote it in Python with a focus on code accessibility and maintainability. <br><br>The bot code is multithreaded to handle multiple users inputs and outputs, internal bot command flow/data shuffling, and administrative commands.",
-    "image": "images/portfolio/vision_stand.jpg",
-    "link": "https://github.com/mstites/telegramGoose",
-    "link_name": "GitHub Repo"
   },
   {
     "name": "Singular Value Decomposition Zine",
@@ -113,7 +106,7 @@
   },
   {
     "name": "Macropad",
-    "description": "I designed, machined, assembled, and programmed this Macropad. It is a completely custom design which is optimized to my own work flow. This photo is also representative of my greater obsession with work flow.  <br><br>I build my own custom keyboards, create custom keyboard layouts, type in Dvorak (A more efficient keyboard layout), and use a variety of different programs and desktop environments (Where appropriate) to optimize my work on computers.",
+    "description": "I designed, machined, assembled, and programmed this Macropad. It is a completely custom design which is optimized to my own work flow.<br><br>I build my own custom keyboards, create custom keyboard layouts, type in Dvorak (A more efficient keyboard layout), and use a variety of different programs and desktop environments (Where appropriate) to optimize my work on computers.",
     "image": "images/portfolio/macropad.jpg",
     "link": "items/macropad.html",
     "link_name": "Build Log"
