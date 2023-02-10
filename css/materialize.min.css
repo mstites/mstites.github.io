@@ -2668,7 +2668,7 @@ nav ul a span.badge{
 .row .col.push-s12{
     left:100%
 }
-@media only screen and (min-width: 601px){
+@media only screen and (min-width: 801px){
     .row .col.m1{
         width:8.3333333333%;
         margin-left:auto;
@@ -3032,7 +3032,7 @@ nav ul a span.badge{
         left:100%
     }
 }
-@media only screen and (min-width: 1201px){
+@media only screen and (min-width: 1301px){
     .row .col.xl1{
         width:8.3333333333%;
         margin-left:auto;
