@@ -1,7 +1,7 @@
 [
   {
     "name": "Vision Stand Calibration",
-    "description": "I developed software to calibrate the Vision Test Stands at the JDES (John Deere Electronic Solutions) plant. These testers verify the functionality of displays made for use in John Deere tractors and construction equipement. The calibration code I wrote will reduce the number of engineering hours to develop tests and reduce false failures on the manufacturing line. <br><br> I brought this problem from concept to finish. I packaged my finished software into reusable portions that allow other engineers to easily implement the calibration files into their own code. I also wroote a thorough document explaining not only the calibration files but how the vision testers work, as many engineers are less familiar with this technology.",
+    "description": "I developed software to calibrate the Vision Test Stands at the JDES (John Deere Electronic Solutions) plant. These testers verify the functionality of displays made for use in John Deere tractors and construction equipement. The calibration code I wrote will reduce the number of engineering hours to develop tests and reduce false failures on the manufacturing line. <br><br> I brought this problem from concept to finish. I packaged my finished software into reusable portions that allow other engineers to easily implement the calibration files into their own code. I wrote documentation explaining how the vision test stands work and how to implement my calibration utility in their code.",
     "image": "images/portfolio/vision_stand.jpg",
     "link": "items/vision_stand.html",
     "link_name": "More Info"
