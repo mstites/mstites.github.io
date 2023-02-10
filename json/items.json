@@ -28,7 +28,7 @@
     "link_name": "More Info"
   },
   {
-    "name": "Mobility Networks Equity Analysis",
+    "name": "Mobility Network Equity Analysis",
     "description": "I worked on a team of researchers to analyze the equity of scooter share services in Providence (RI) to inform city policy decisions. We used scooter data from the private providers to analyze the availability and impact of these services, particularly how it may pertain to equitable access regardless of income level or location in the city. The outcome of this project included a number of data driven reports and a web application that enables city workers to perform analysis on future data.<br><br><b>I directed the main data analysis model in the project including scaffolding code architecture, manipulation of census data, coordinating meetings, and communicating across an international programming team.</b> I also co-authored a paper about the city’s underserved communities inequitable dynamic with scooter share services that was submitted to the city and the Clare Boothe Luce scholarship program.<br><br>I gained experience with the R programming language and the Tidyverse packages (widely used data science tools).",
     "image": "images/portfolio/providence.jpg",
     "link": "items/Equity_Report_Paper.pdf",
@@ -70,7 +70,7 @@
     "link_name": "Computational Essay"
   },
   {
-    "name": "Laser Cut Comp. Case",
+    "name": "Laser Cut Computer Case",
     "description": "Spurred by frustrations with existing products on the market, I experimented with new designs for compact and portable computer cases. I tested a number of different designs which could in the future be developed into a more refined product.<br><br>The cases were made by laser cutting plywood. This method was chosen because it is a cheap and fast prototyping method.",
     "image": "images/portfolio/case.jpg",
     "link": "items/case.html",
@@ -98,7 +98,7 @@
     "link_name": "GitHub Repo"
   },
   {
-    "name": "SVD Zines",
+    "name": "Singular Value Decomposition Zine",
     "description": "I worked with a partner to develop a pair of educational zines explaining basic linearity concepts and the Singular Value Decomposition. These zines are aimed at high school students with an algebra understanding. They are meant to get students excited about math by giving purpose to the things they are learning.  <br><br>I created the zine format, wrote about the basics of Linear Algebra (Matrices, Vectors, Eigenvalues, Eigenvectors), explained how SVD works on an image, and developed the code examples (MATLAB, Python, and WolframAlpha).",
     "image": "images/portfolio/svd_zine.jpg",
     "link": "https://www.mstites.com/Linearity-Zine/",
