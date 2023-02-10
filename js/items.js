@@ -1,8 +1,6 @@
 // Much of the same code as the index.js, just with corrected link locations and
 // removing the portfolio items
 
-// Note: to ensure perfect spacing, all titles of cards should have the same length as the longest one (use spaces)
-
 var work = document.getElementById("portfolioItemContainer");
 var workRequest = new XMLHttpRequest();
 
