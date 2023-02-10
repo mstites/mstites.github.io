@@ -91,6 +91,13 @@
     "link_name": "LinkedIn Post"
   },
   {
+    "name": "Goose Bot",
+    "description": "A telegram bot I built to spread positivity and support during the COVID-19 pandemic. The bot sends messages, reminders, images, honks, and more - all with a goose focus. I wrote it in Python with a focus on code accessibility and maintainability. <br><br>The bot code is multithreaded to handle multiple users inputs and outputs, internal bot command flow/data shuffling, and administrative commands.",
+    "image": "images/portfolio/goose.jpg",
+    "link": "https://github.com/mstites/telegramGoose",
+    "link_name": "GitHub Repo"
+  },
+  {
     "name": "Singular Value Decomposition Zine",
     "description": "I worked with a partner to develop a pair of educational zines explaining basic linearity concepts and the Singular Value Decomposition. These zines are aimed at high school students with an algebra understanding. They are meant to get students excited about math by giving purpose to the things they are learning.  <br><br>I created the zine format, wrote about the basics of Linear Algebra (Matrices, Vectors, Eigenvalues, Eigenvectors), explained how SVD works on an image, and developed the code examples (MATLAB, Python, and WolframAlpha).",
     "image": "images/portfolio/svd_zine.jpg",
