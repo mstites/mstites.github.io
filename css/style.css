@@ -218,6 +218,10 @@ code {
   border-bottom-right-radius: 2px !important;
 }
 
+.card-title {
+  font-size: 1.6rem !important;
+}
+
 #contactButton {
   border: 2px solid var(--main-txt-color);
   font-weight: 500;
