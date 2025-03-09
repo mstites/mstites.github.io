@@ -84,13 +84,6 @@
     "link_name": "Create Website"
   },
   {
-    "name": "Global Inclusion Presentation",
-    "description": "I embarked on a number of Diversity & Inclusion initiatives while working for John Deere as an engineering intern. The highlight of my summer was giving an inclusion presentation sponsored by an international employee resource group: 'Rainbow ERG Special Event: Life Stories of a Non-binary Person'. Over 200 employees were in attendance, with many more watching the recording.<br><br>The presentation was centered around my experience in the world and the workplace as a trans person. I encouraged attendees to question how they see the world, understand that people have different lived experiences, help people have empathy for people unlike themselves, and to be able to translate that empathy into allyship.<br><br>",
-    "image": "images/portfolio/lifestories.jpg",
-    "link": "https://www.linkedin.com/feed/update/urn:li:activity:6567873477775368192/",
-    "link_name": "LinkedIn Post"
-  },
-  {
     "name": "Goose Bot",
     "description": "A telegram bot I built to spread positivity and support during the COVID-19 pandemic. The bot sends messages, reminders, images, honks, and more - all with a goose focus. I wrote it in Python with a focus on code accessibility and maintainability. <br><br>The bot code is multithreaded to handle multiple users inputs and outputs, internal bot command flow/data shuffling, and administrative commands.",
     "image": "images/portfolio/goose.jpg",
